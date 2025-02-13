@@ -37,3 +37,7 @@ logs/
 
 # Carpetas específicas del proyecto
 notebooks/exploracion/
+
+src/build
+src/dist
+src/*.spec
