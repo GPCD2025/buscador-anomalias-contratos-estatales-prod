@@ -21,9 +21,7 @@ __pycache__/
 logs/
 *.log
 
-# Archivos de dependencias generados automáticamente
-requirements.txt
-
+ 
 # Bases de datos SQLite
 *.sqlite3
 *.db
