@@ -11,3 +11,8 @@ Incluye planificación, ejecución, mitigación de riesgos y presentación de re
 ## Flujo del proyecto
 
 ![mermaid_graph](https://www.mermaidchart.com/raw/fd80f11d-721b-41d3-baa6-6417bad5a430?theme=light&version=v0.1&format=svg)
+
+
+
+## Instalar paquetes del repositorio
+pip install -r requirements.txt
