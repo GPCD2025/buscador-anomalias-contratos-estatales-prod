@@ -1,5 +1,6 @@
 # Ignorar el ambiente virtual (ajustar si el nombre es diferente)
 venv/
+class1/
 .env/
 *.env
 
