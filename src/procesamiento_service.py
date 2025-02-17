@@ -1,3 +1,4 @@
+import concurrent.futures
 import time
 import requests
 import zipfile
@@ -5,10 +6,9 @@ from tqdm import tqdm  # Para mostrar la barra de progreso
 import pandas as pd
 import re
 from rues_web_scrapping import RUESScraper
-from insert_data import procesar_datos
-import json
-import unicodedata
-
+from insert_data import procesar_datos, obtener_contratos_procesados
+from particion_archivo_service import crear_consecutivo, asignar_grupos, cargar_mi_grupo, obtener_asignacion_grupos
+import json 
 
 def descargar_zip(url):
     print(f"Descargando archivo {url}...")
@@ -87,7 +87,7 @@ def obtener_formacion_rues(nit):
     
     print("Iniciando proceso de extracción de información RUES...")
     scraper.cargar_pagina()
-    time.sleep(1)
+    time.sleep(3)
     print("obtener_informacion")
     scraper.obtener_informacion(nit)
     time.sleep(1)
@@ -110,11 +110,69 @@ def obtener_formacion_rues(nit):
         print("Formación RUES obtenida.")
         return informacion_rues    
     else:
+        scraper.cerrar_pagina()
         return None
 
 def insertar_datos_recolectados(contratos):
     print("Insertando datos recolectados...")
+    
     procesar_datos(contratos)
+
+def filtrar_contratos_procesados():
+    print("Filtrando contratos procesados...")
+    return obtener_contratos_procesados()
+
+
+def procesar_fila(row, nombre_estudiante):
+    """
+    Procesa una fila del DataFrame, obteniendo la formación RUES y estructurando el resultado.
+    """
+    try:
+        start_time_ciclo = time.time()
+        nit = row['NIT del Proveedor Adjudicado']
+        print(f"🔍 Procesando NIT: {nit}")
+        
+        formacion_rues = obtener_formacion_rues(nit)
+        if formacion_rues is not None:
+            registro = {
+                'nit': nit,
+                'nombre_estudiante': nombre_estudiante,
+                'ID del Proceso': row['ID del Proceso'],
+                'Nombre del Procedimiento': row['Nombre del Procedimiento'],
+                'Descripción del Procedimiento': row['Descripción del Procedimiento'],
+                'Modalidad de Contratacion': row['Modalidad de Contratacion'],
+                'Justificación Modalidad de Contratación': row['Justificación Modalidad de Contratación'],
+                'formacion_rues': formacion_rues
+            }
+            insertar_datos_recolectados([registro])  # Guardar en BD
+            print(f"✅ Procesado en {time.time() - start_time_ciclo:.2f} segundos")
+            return registro  # Devolver el resultado procesado
+
+        print(f"⚠️ NIT {nit} no encontrado")
+        return None
+    except Exception as e:
+        print(f"❌ Error procesando {row['NIT del Proveedor Adjudicado']}: {e}")
+        return None
+
+def procesar_en_paralelo(df, nombre_estudiante, max_workers=4):
+    """
+    Procesa el DataFrame en paralelo usando hilos.
+    """
+    contratos = []
+    start_time = time.time()
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+        # Ejecutar tareas en paralelo
+        futures = {executor.submit(procesar_fila, row, nombre_estudiante): row for _, row in df.iterrows()}
+        
+        for future in concurrent.futures.as_completed(futures):
+            resultado = future.result()
+            if resultado:
+                contratos.append(resultado)
+
+    print(f"🔹 Procesamiento completo en {time.time() - start_time:.2f} segundos")
+    return contratos  # Devuelve la lista de contratos procesados
+
   
 if __name__ == "__main__":
     yaFueDescargado = True
@@ -147,44 +205,37 @@ if __name__ == "__main__":
     
     print(df.shape) 
     
-    #ciclo para recorrer el dataframe y obtener la formación RUES
-    #tomar solo los primeros 5 registros y dejarlos en una nuevo dataframe  
+    grupos_existentes = obtener_asignacion_grupos()
+    
+    if(len(grupos_existentes) == 0): 
+        df = asignar_grupos(df)
+    else:
+        df = crear_consecutivo(df)
+    
+    df = cargar_mi_grupo(nombre_estudiante, df)
+    
+    contratos_procesados = filtrar_contratos_procesados()
+    
+    print(df.shape) 
+    df = df[~df["ID del Proceso"].isin(contratos_procesados)]
+     
+    print(df.shape) 
+    
     dftest = df.head(1000)
     
-    ##TODO HENRY: crear un metodo en donde lea todos los id de los contratos de la base de datos y los filtre para que no los vuelva a procesar 
-     
     contratos = []
     cont =0
     if not yaFueScrapeado:
         start_time = time.time()
-        for index, row in dftest.iterrows():
-                try:
-                        start_time_ciclo = time.time()
-                        nit = row['NIT del Proveedor Adjudicado']
-                        print(nit)
-                        formacion_rues = obtener_formacion_rues(nit)
-                        if not formacion_rues is None:
-                            registro = {
-                                'nit': nit,
-                                'nombre_estudiante': nombre_estudiante,
-                                'ID del Proceso': row['ID del Proceso'],
-                                'Nombre del Procedimiento': row['Nombre del Procedimiento'],
-                                'Descripción del Procedimiento': row['Descripción del Procedimiento'],
-                                'Modalidad de Contratacion': row['Modalidad de Contratacion'],
-                                'Justificación Modalidad de Contratación': row['Justificación Modalidad de Contratación'],
-                                'formacion_rues': formacion_rues
-                            }
-                            contratos.append(registro) 
-                            
-                            insertar_datos_recolectados([registro])   
-                            print(f"Tiempo de ejecución: {time.time() - start_time_ciclo} segundos") 
-                        else:
-                            print("Contrato no encontrado")
+      
+        # Procesar en paralelo
+        contratos = procesar_en_paralelo(dftest, nombre_estudiante, max_workers=2)
+        
+        # Guardar resultados en JSON
+        with open('contratos.json', 'w', encoding="utf-8") as file:
+            json.dump(contratos, file, indent=2, ensure_ascii=False)
 
-                        cont= cont + 1
-                        print(f'Registros {cont}')
-                except Exception as e:
-                    print(e)
+        print(f"📝 Se guardaron {len(contratos)} contratos en contratos.json")
             
         #convertir la variable contratos en un json y despues imprimir el json
         

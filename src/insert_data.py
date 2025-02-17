@@ -206,3 +206,64 @@ def procesar_datos(data_array):
         print(f"Error en la inserción: {e}")
     finally:
         conn.close()
+        
+def obtener_contratos_procesados( ):
+    """Obtiene la lista de ID de procesos ya registrados en la base de datos."""
+    query = "SELECT id_del_proceso FROM contratos;"
+    try:
+        conn = conectar_db()
+        with conn.cursor() as cur:
+            cur.execute(query)
+            resultados = cur.fetchall()
+        
+        # Extraer solo los valores de ID del proceso en una lista
+        id_procesos_procesados = [row[0] for row in resultados]
+
+        print(f"✅ Se han obtenido {len(id_procesos_procesados)} ID de procesos procesados.")
+        return id_procesos_procesados
+    except Exception as e:
+        print(f"❌ Error al obtener los contratos procesados: {e}")
+        return []
+    finally:
+        conn.close()
+
+
+def guardar_asignacion_grupos(grupos):
+    """Guarda la asignación de grupos en la base de datos."""
+    conn = conectar_db()
+    try:
+        query = """
+        INSERT INTO grupos_asignados (nombre_grupo, min_consecutivo, max_consecutivo, fecha_creacion)
+        VALUES (%s, %s, %s, %s)
+        ON CONFLICT (nombre_grupo) DO UPDATE 
+        SET min_consecutivo = EXCLUDED.min_consecutivo, 
+            max_consecutivo = EXCLUDED.max_consecutivo, 
+            fecha_creacion = EXCLUDED.fecha_creacion;
+        """
+        with conn.cursor() as cur:
+            for grupo in grupos:
+                cur.execute(query, (grupo["nombre_grupo"], grupo["min_consecutivo"], grupo["max_consecutivo"], datetime.utcnow()))
+        conn.commit()
+        print("✅ Asignación de grupos guardada en la base de datos.")
+    except Exception as e:
+        print(f"❌ Error al guardar la asignación de grupos: {e}")
+    finally:
+        conn.close()
+
+
+def obtener_asignacion_grupos():
+    """Recupera la asignación de grupos desde la base de datos."""
+    query = "SELECT nombre_grupo, min_consecutivo, max_consecutivo FROM grupos_asignados;"
+    conn = conectar_db()
+    grupos = []
+    try:
+        with conn.cursor() as cur:
+            cur.execute(query)
+            grupos = cur.fetchall()
+    except Exception as e:
+        print(f"❌ Error al obtener la asignación de grupos: {e}")
+    finally:
+        conn.close()
+
+    return [{"nombre_grupo": row[0], "min_consecutivo": row[1], "max_consecutivo": row[2]} for row in grupos]
+
