@@ -10,10 +10,27 @@ class RUESScraper:
         """Inicializa el navegador y configura el WebDriver."""
         options = webdriver.ChromeOptions()
         options.add_argument("--start-maximized")
+        
         self.driver = webdriver.Chrome(options=options)
         self.informacion_empresa = {}  # Diccionario para almacenar la info
         self.fila_resultado = None
 
+ 
+    def manejar_validacion_robot(self):
+        """Maneja la validación de CAPTCHA si aparece."""
+        try:
+            boton_enviar = WebDriverWait(self.driver, 5).until(
+                EC.element_to_be_clickable((By.XPATH, "//input[@type='submit' and @value='Enviar']"))
+            ) 
+            boton_enviar.click()
+            print("✅ Se ha hecho clic en el botón 'Enviar'.")
+
+            # Lanzar una excepción controlada para que retry vuelva a ejecutar obtener_informacion()
+            raise Exception("Captcha detectado y solucionado. Reintentando consulta...")
+        
+        except Exception as e:
+            print("⚠️ No se encontró el CAPTCHA, continuando...") 
+        
     def cargar_pagina(self):
         """Carga la página de consulta del RUES y evita el modal inicial."""
         url = "https://www.rues.org.co/?old=true"
@@ -32,19 +49,6 @@ class RUESScraper:
         print("✅ Página recargada. Modal evitado.")
 
 
-
-    retry(stop_max_attempt_number=5, wait_fixed=500)
-    def manejar_validacion_robot(self):
-        """Maneja la validación de CAPTCHA si aparece."""
-        try:
-            boton_enviar = WebDriverWait(self.driver, 5).until(
-                EC.element_to_be_clickable((By.XPATH, "//input[@type='submit' and @value='Enviar']"))
-            ) 
-            boton_enviar.click()
-            print("✅ Se ha hecho clic en el botón 'Enviar'.")
-        except Exception as e:
-            print("⚠️ No se encontró el CAPTCHA, continuando...")
-            raise e
 
     @retry(stop_max_attempt_number=5, wait_fixed=2000)
     def obtener_informacion(self, nit_empresa):
@@ -76,6 +80,18 @@ class RUESScraper:
     def cargar_empresa(self):
         """Extrae los datos de la empresa desde la tabla de resultados."""
         try:
+            # Esperar que el mensaje de "No hay resultados" aparezca si existe
+            try:
+                no_resultado = WebDriverWait(self.driver, 10).until(
+                    EC.presence_of_element_located((By.ID, "card-info"))
+                )
+                # Verificamos si el mensaje contiene la alerta de "No ha retornado resultados"
+                if "La consulta por NIT no ha retornado resultados" in no_resultado.text:
+                    print("❌ No se encontraron resultados para la consulta.")
+                    return False  # Retorna False si no hay resultados
+            except:
+                pass  # Si el mensaje no está presente, continuamos con el proceso
+
             # Esperar que la tabla de resultados aparezca
             WebDriverWait(self.driver, 20).until(EC.presence_of_element_located((By.ID, "rmTable2")))
 
@@ -93,6 +109,7 @@ class RUESScraper:
             })
 
             print("✅ Datos extraídos de la tabla de resultados.")
+            return True
         except Exception as e:
             print(f"⚠️ Error al cargar la empresa: {e}")
             self.manejar_validacion_robot()

@@ -87,26 +87,30 @@ def obtener_formacion_rues(nit):
     
     print("Iniciando proceso de extracción de información RUES...")
     scraper.cargar_pagina()
-    time.sleep(3)
+    time.sleep(1)
     print("obtener_informacion")
     scraper.obtener_informacion(nit)
-    time.sleep(3)
+    time.sleep(1)
     print("cargar_empresa")
-    scraper.cargar_empresa()
-    time.sleep(3)
-    print("redirigir_detalle_empresa")
-    scraper.redirigir_detalle_empresa()
-    time.sleep(3)
-    print("llenar_campos_finales")
-    scraper.llenar_campos_finales() 
-    print("extraer_informacion_general")
-    scraper.extraer_actividades_economicas() 
-    scraper.extraer_representantes_legales()
-    print("obtener_informacion_completa")
-    informacion_rues = scraper.obtener_informacion_completa()
-    scraper.cerrar_pagina()
-    print("Formación RUES obtenida.")
-    return informacion_rues    
+    empresaExiste = scraper.cargar_empresa()
+
+    if empresaExiste:
+        time.sleep(1)
+        print("redirigir_detalle_empresa")
+        scraper.redirigir_detalle_empresa()
+        time.sleep(2)
+        print("llenar_campos_finales")
+        scraper.llenar_campos_finales() 
+        print("extraer_informacion_general")
+        scraper.extraer_actividades_economicas() 
+        scraper.extraer_representantes_legales()
+        print("obtener_informacion_completa")
+        informacion_rues = scraper.obtener_informacion_completa()
+        scraper.cerrar_pagina()
+        print("Formación RUES obtenida.")
+        return informacion_rues    
+    else:
+        return None
 
 def insertar_datos_recolectados(contratos):
     print("Insertando datos recolectados...")
@@ -116,7 +120,7 @@ if __name__ == "__main__":
     yaFueDescargado = True
     yaFueDescomprimido = True
     yaFueProcesado = True
-    yaFueScrapeado = True
+    yaFueScrapeado = False
     nombre_estudiante = input("Ingrese su nombre: ").strip()
     
     print("Iniciando proceso...")
@@ -145,32 +149,46 @@ if __name__ == "__main__":
     
     #ciclo para recorrer el dataframe y obtener la formación RUES
     #tomar solo los primeros 5 registros y dejarlos en una nuevo dataframe  
-    dftest = df.head(10)
+    dftest = df.head(1000)
+    
+    ##TODO HENRY: crear un metodo en donde lea todos los id de los contratos de la base de datos y los filtre para que no los vuelva a procesar 
      
     contratos = []
-    
+    cont =0
     if not yaFueScrapeado:
         start_time = time.time()
         for index, row in dftest.iterrows():
-            start_time_ciclo = time.time()
-            nit = row['NIT del Proveedor Adjudicado']
-            print(nit)
-            formacion_rues = obtener_formacion_rues(nit)
-            registro = {
-                'nit': nit,
-                'nombre_estudiante': nombre_estudiante,
-                'ID del Proceso': row['ID del Proceso'],
-                'Nombre del Procedimiento': row['Nombre del Procedimiento'],
-                'Descripción del Procedimiento': row['Descripción del Procedimiento'],
-                'Modalidad de Contratacion': row['Modalidad de Contratacion'],
-                'Justificación Modalidad de Contratación': row['Justificación Modalidad de Contratación'],
-                'formacion_rues': formacion_rues
-            }
-            contratos.append(registro) 
-            print(f"Tiempo de ejecución: {time.time() - start_time_ciclo} segundos")
+                try:
+                        start_time_ciclo = time.time()
+                        nit = row['NIT del Proveedor Adjudicado']
+                        print(nit)
+                        formacion_rues = obtener_formacion_rues(nit)
+                        if not formacion_rues is None:
+                            registro = {
+                                'nit': nit,
+                                'nombre_estudiante': nombre_estudiante,
+                                'ID del Proceso': row['ID del Proceso'],
+                                'Nombre del Procedimiento': row['Nombre del Procedimiento'],
+                                'Descripción del Procedimiento': row['Descripción del Procedimiento'],
+                                'Modalidad de Contratacion': row['Modalidad de Contratacion'],
+                                'Justificación Modalidad de Contratación': row['Justificación Modalidad de Contratación'],
+                                'formacion_rues': formacion_rues
+                            }
+                            contratos.append(registro) 
+                            
+                            insertar_datos_recolectados([registro])   
+                            print(f"Tiempo de ejecución: {time.time() - start_time_ciclo} segundos") 
+                        else:
+                            print("Contrato no encontrado")
+
+                        cont= cont + 1
+                        print(f'Registros {cont}')
+                except Exception as e:
+                    print(e)
             
         #convertir la variable contratos en un json y despues imprimir el json
         
+        print(contratos.count)
         json = json.dumps(contratos, indent=2)
         
         #salvar json en el disco
@@ -186,6 +204,4 @@ if __name__ == "__main__":
         # Decodificar caracteres especiales correctamente
         contratos = json.loads(raw_data)
  
-    insertar_datos_recolectados(contratos)
-    
     
