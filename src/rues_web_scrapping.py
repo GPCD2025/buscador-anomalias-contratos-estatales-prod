@@ -260,9 +260,7 @@ class RUESScraper:
             print(f"⚠️ Error al extraer Representantes Legales: {e}")
             self.manejar_validacion_robot()
             raise e
-
-
-
+ 
 
     def obtener_informacion_completa(self):
         """Retorna la información completa de la empresa."""
