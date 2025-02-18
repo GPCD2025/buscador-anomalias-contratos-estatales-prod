@@ -4,42 +4,42 @@
     "nombre_estudiante": "jaime andres",
     "ID del Proceso": "CO1.REQ.3020131",
     "Nombre del Procedimiento": "Internet Parques Arqueologicos",
-    "Descripci\u00f3n del Procedimiento": "Suministrar el servicio Internet y el soporte tecnico respectivo, para los Parques Arqueologicos de San Agustin, Idolos y Alto de Piedras",
+    "Descripcion del Procedimiento": "Suministrar el servicio Internet y el soporte tecnico respectivo, para los Parques Arqueologicos de San Agustin, Idolos y Alto de Piedras",
     "Modalidad de Contratacion": "Minima cuantia",
-    "Justificaci\u00f3n Modalidad de Contrataci\u00f3n": "Presupuesto inferior al 10% de la menor cuantia",
+    "Justificacion Modalidad de Contratacion": "Presupuesto inferior al 10% de la menor cuantia",
     "formacion_rues": {
       "NIT": "NIT 900474867 - 7",
-      "Raz\u00f3n Social": "ENTER TELECOMUNICACIONES BANDA ANCHA SAS",
+      "Razon Social": "ENTER TELECOMUNICACIONES BANDA ANCHA SAS",
       "Sigla": "",
       "Municipio/Dpto": "SAN AGUSTIN / HUILA",
-      "Categor\u00eda": "SOCIEDAD \u00f3 PERSONA JURIDICA PRINCIPAL \u00f3 ESAL",
+      "Categoria": "SOCIEDAD o PERSONA JURIDICA PRINCIPAL o ESAL",
       "Numero de Matricula": "224776",
-      "\u00daltimo A\u00f1o Renovado": "2025",
+      "Ultimo Año Renovado": "2025",
       "Fecha de Renovacion": "20250103",
       "Fecha de Matricula": "20111031",
       "Fecha de Vigencia": "Indefinida",
       "Estado de la matricula": "ACTIVA",
-      "Motivo Cancelaci\u00f3n": "NORMAL",
+      "Motivo Cancelacion": "NORMAL",
       "Tipo de Sociedad": "SOCIEDAD COMERCIAL",
-      "Tipo de Organizaci\u00f3n": "SOCIEDADES POR ACCIONES SIMPLIFICADAS SAS",
-      "Categoria de la Matricula": "SOCIEDAD \u00f3 PERSONA JURIDICA PRINCIPAL \u00f3 ESAL",
-      "Fecha Ultima Actualizaci\u00f3n": "20250103",
+      "Tipo de Organizacion": "SOCIEDADES POR ACCIONES SIMPLIFICADAS SAS",
+      "Categoria de la Matricula": "SOCIEDAD o PERSONA JURIDICA PRINCIPAL o ESAL",
+      "Fecha Ultima Actualizacion": "20250103",
       "Emprendimiento Social": "N",
-      "Actividades Econ\u00f3micas": [
+      "Actividades Economicas": [
         {
-          "C\u00f3digo": "6110",
-          "Descripci\u00f3n": "Actividades de telecomunicaciones al\u00e1mbricas"
+          "Codigo": "6110",
+          "Descripcion": "Actividades de telecomunicaciones al\u00e1mbricas"
         },
         {
-          "C\u00f3digo": "6120",
-          "Descripci\u00f3n": "Actividades de telecomunicaciones inal\u00e1mbricas"
+          "Codigo": "6120",
+          "Descripcion": "Actividades de telecomunicaciones inal\u00e1mbricas"
         },
         {
-          "C\u00f3digo": "6190",
-          "Descripci\u00f3n": "Otras actividades de telecomunicaciones"
+          "Codigo": "6190",
+          "Descripcion": "Otras actividades de telecomunicaciones"
         }
       ],
-      "Representantes Legales": "REPRESENTACION LEGAL (PRINCIPALES) ****  12144162 - DELGADO DIAZ WILSON DIVIER  REPRESENTACION LEGAL (SUPLENTES) ****  12144534 - SALAMANCA SALAZAR RODOLFO  FACULTADES ****  El gerente ejercera todas las funciones propias de la naturaleza de su cargo, y en especial, las siguientes: 1) representar a la sociedad ante los accionistas, ante terceros y ante toda clase de autoridades de orden administrativo y jurisdiccional. 2) ejecutar todos los actos u operaciones correspondientes al objeto social, hasta cuatrocientos (400) salarios minimos legales mensuales vigentes, de conformidad con lo previsto en las leyes y en estos estatutos, 3) autorizar con su firma todos los documentos publicos o privados que deban otorgarse en desarrollo de las actividades sociales o en interes de la sociedad. 4) presentar a la asamblea general en sus reuniones ordinarias, un inventario y un balance de fin de ejercicio, junto con un informe escrito sobre la situacion de la sociedad, un detalle completo de la cuenta de resultados y un proyecto de distribucion de utilidades obtenidas. 5) nombrar y remover los empleados de la sociedad cuyo nombramiento y remocion le delegue asamblea. 6) tomar todas las medidas que reclame la conservacion de los bienes sociales, vigilar la actividad de los empleados de la administracion de la sociedad e impartirles las ordenes e instrucciones que exija la buena marcha de la compa\u00f1ia. 7) convocar la asamblea general a reuniones extraordinarias cuando lo juzgue conveniente o necesario y hacer las convocatorias del caso cuando lo ordenen los estatutos. 8) cumplir las ordenes e instrucciones que le impartan la asamblea general y en particular, solicitar autorizaciones para los negocios que deben aprobar previamente la asamblea segun lo disponen las normas correspondientes del presente estatuto. 9 ) cumplir o hacer que se cumplan oportunamente todos los requisitos o exigencias legales que se relacionen con el funcionamiento y actividades de la sociedad. Paragrafo 1: Funciones del subgerente: Reemplazar al gerente en ausencias temporales o permanentes."
+      "Representantes Legales": "REPRESENTACION LEGAL (PRINCIPALES) ****  12144162 - DELGADO DIAZ WILSON DIVIER  REPRESENTACION LEGAL (SUPLENTES) ****  12144534 - SALAMANCA SALAZAR RODOLFO  FACULTADES ****  El gerente ejercera todas las funciones propias de la naturaleza de su cargo, y en especial, las siguientes: 1) representar a la sociedad ante los accionistas, ante terceros y ante toda clase de autoridades de orden administrativo y jurisdiccional. 2) ejecutar todos los actos u operaciones correspondientes al objeto social, hasta cuatrocientos (400) salarios minimos legales mensuales vigentes, de conformidad con lo previsto en las leyes y en estos estatutos, 3) autorizar con su firma todos los documentos publicos o privados que deban otorgarse en desarrollo de las actividades sociales o en interes de la sociedad. 4) presentar a la asamblea general en sus reuniones ordinarias, un inventario y un balance de fin de ejercicio, junto con un informe escrito sobre la situacion de la sociedad, un detalle completo de la cuenta de resultados y un proyecto de distribucion de utilidades obtenidas. 5) nombrar y remover los empleados de la sociedad cuyo nombramiento y remocion le delegue asamblea. 6) tomar todas las medidas que reclame la conservacion de los bienes sociales, vigilar la actividad de los empleados de la administracion de la sociedad e impartirles las ordenes e instrucciones que exija la buena marcha de la compañia. 7) convocar la asamblea general a reuniones extraordinarias cuando lo juzgue conveniente o necesario y hacer las convocatorias del caso cuando lo ordenen los estatutos. 8) cumplir las ordenes e instrucciones que le impartan la asamblea general y en particular, solicitar autorizaciones para los negocios que deben aprobar previamente la asamblea segun lo disponen las normas correspondientes del presente estatuto. 9 ) cumplir o hacer que se cumplan oportunamente todos los requisitos o exigencias legales que se relacionen con el funcionamiento y actividades de la sociedad. Paragrafo 1: Funciones del subgerente: Reemplazar al gerente en ausencias temporales o permanentes."
     }
   },
   {
@@ -47,46 +47,46 @@
     "nombre_estudiante": "jaime andres",
     "ID del Proceso": "CO1.REQ.6296595",
     "Nombre del Procedimiento": "Servicio de mantenimiento a bienes inmuebles recibidos en dacion en pago a cargo de la Direccion Seccional de Aduanas de Cucuta",
-    "Descripci\u00f3n del Procedimiento": "Servicio de mantenimiento a bienes inmuebles recibidos en dacion en pago a cargo de la Direccion Seccional de Aduanas de Cucuta",
+    "Descripcion del Procedimiento": "Servicio de mantenimiento a bienes inmuebles recibidos en dacion en pago a cargo de la Direccion Seccional de Aduanas de Cucuta",
     "Modalidad de Contratacion": "Minima cuantia",
-    "Justificaci\u00f3n Modalidad de Contrataci\u00f3n": "Presupuesto inferior al 10% de la menor cuantia",
+    "Justificacion Modalidad de Contratacion": "Presupuesto inferior al 10% de la menor cuantia",
     "formacion_rues": {
       "NIT": "NIT 900893525 - 0",
-      "Raz\u00f3n Social": "COINPROL S.A.S.",
+      "Razon Social": "COINPROL S.A.S.",
       "Sigla": "",
       "Municipio/Dpto": "CUCUTA / NORTE DE SANTANDER",
-      "Categor\u00eda": "SOCIEDAD \u00f3 PERSONA JURIDICA PRINCIPAL \u00f3 ESAL",
+      "Categoria": "SOCIEDAD o PERSONA JURIDICA PRINCIPAL o ESAL",
       "Numero de Matricula": "282190",
-      "\u00daltimo A\u00f1o Renovado": "2024",
+      "Ultimo Año Renovado": "2024",
       "Fecha de Renovacion": "20240321",
       "Fecha de Matricula": "20150929",
       "Fecha de Vigencia": "Indefinida",
       "Estado de la matricula": "ACTIVA",
-      "Motivo Cancelaci\u00f3n": "NORMAL",
+      "Motivo Cancelacion": "NORMAL",
       "Tipo de Sociedad": "SOCIEDAD COMERCIAL",
-      "Tipo de Organizaci\u00f3n": "SOCIEDADES POR ACCIONES SIMPLIFICADAS SAS",
-      "Categoria de la Matricula": "SOCIEDAD \u00f3 PERSONA JURIDICA PRINCIPAL \u00f3 ESAL",
-      "Fecha Ultima Actualizaci\u00f3n": "20241114",
+      "Tipo de Organizacion": "SOCIEDADES POR ACCIONES SIMPLIFICADAS SAS",
+      "Categoria de la Matricula": "SOCIEDAD o PERSONA JURIDICA PRINCIPAL o ESAL",
+      "Fecha Ultima Actualizacion": "20241114",
       "Emprendimiento Social": "N",
-      "Actividades Econ\u00f3micas": [
+      "Actividades Economicas": [
         {
-          "C\u00f3digo": "7112",
-          "Descripci\u00f3n": "Actividades de ingenier\u00eda y otras actividades conexas de consultor\u00eda t\u00e9cnica"
+          "Codigo": "7112",
+          "Descripcion": "Actividades de ingenieria y otras actividades conexas de consultoria t\u00e9cnica"
         },
         {
-          "C\u00f3digo": "8130",
-          "Descripci\u00f3n": "Actividades de paisajismo y servicios de mantenimiento conexos"
+          "Codigo": "8130",
+          "Descripcion": "Actividades de paisajismo y servicios de mantenimiento conexos"
         },
         {
-          "C\u00f3digo": "8129",
-          "Descripci\u00f3n": "Otras actividades de limpieza de edificios e instalaciones industriales"
+          "Codigo": "8129",
+          "Descripcion": "Otras actividades de limpieza de edificios e instalaciones industriales"
         },
         {
-          "C\u00f3digo": "3700",
-          "Descripci\u00f3n": "Evacuaci\u00f3n y tratamiento de aguas residuales"
+          "Codigo": "3700",
+          "Descripcion": "Evacuacion y tratamiento de aguas residuales"
         }
       ],
-      "Representantes Legales": "REPRESENTACION LEGAL (PRINCIPALES) ****  60328784 - BORRERO SUAREZ DEYANIRA  REPRESENTACION LEGAL (SUPLENTES) ****  1094267096 - NARVAEZ AGAMEZ KELLY JOHANA  FACULTADES ****  El Gerente est\u00e1 facultado para ejecutar todos los actos y contratos acordes con la naturaleza de su encargo y que se relacionen directamente con el giro ordinario de los negocios sociales. En especial, el Gerente tendr\u00e1 las siguientes funciones: a) Usar la firma o raz\u00f3n social; b) Autorizar con su firma todos los documentos p\u00fablicos o privados que deban otorgarse en desarrollo de las actividades sociales o en inter\u00e9s de la sociedad. c) Designar al secretario de la compa\u00f1\u00eda, que lo ser\u00e1 tambi\u00e9n de la Asamblea General de Accionistas; d) Designar los empleados que requiera el normal funcionamiento de la compa\u00f1\u00eda y se\u00f1alarles su remuneraci\u00f3n, excepto cuando se trate de aquellos que por ley o por estatutos deban ser designados por la Asamblea General de Accionistas; e) Presentar un informe de su gesti\u00f3n a la Asamblea General de Accionistas, sus reuniones ordinarias y el balance general de fin de ejercicio con un proyecto de distribuci\u00f3n de utilidades; f) Convocar a la Asamblea General de Accionistas a reuniones ordinarias y extraordinarias; g) Nombrar los \u00e1rbitros que correspondan a la sociedad en virtud de los compromisos, cuando as\u00ed lo autorice la Asamblea General de Accionistas, y de la cl\u00e1usula compromisoria que en estos estatutos se pacta; y h) Constituir los apoderados judiciales necesarios para la defensa de los intereses sociales. i) Organizara y gestionara adecuadamente los sistemas requeridos para la contabilizaci\u00f3n, pagos y dem\u00e1s operaciones de la sociedad. j) Velar\u00e1 y atender\u00e1 con la diligencia de buen hombre negocios todas las obligaciones de la sociedad en materia impositiva. k) Certificar conjuntamente con el contador de la compa\u00f1\u00eda los estados financieros en el caso de ser dicha certificaci\u00f3n exigida por las normas legales. m) Tendr\u00e1 la facultad para celebrar todo tipo de actos y contratos con entidades p\u00fablicas, privadas y mixtas en desarrollo del objeto social y el giro ordinario del negocio. PARAGRAFO. a) El Gerente estar\u00e1 facultado para celebrar todo tipo de actos y contratos sin l\u00edmite de cuant\u00eda alguno. b) El suplente del Gerente puede ejercer simult\u00e1neamente las facultades y funciones del Gerente siempre y cuando este as\u00ed lo designe, ya se manera general o provisional."
+      "Representantes Legales": "REPRESENTACION LEGAL (PRINCIPALES) ****  60328784 - BORRERO SUAREZ DEYANIRA  REPRESENTACION LEGAL (SUPLENTES) ****  1094267096 - NARVAEZ AGAMEZ KELLY JOHANA  FACULTADES ****  El Gerente est\u00e1 facultado para ejecutar todos los actos y contratos acordes con la naturaleza de su encargo y que se relacionen directamente con el giro ordinario de los negocios sociales. En especial, el Gerente tendr\u00e1 las siguientes funciones: a) Usar la firma o razon social; b) Autorizar con su firma todos los documentos p\u00fablicos o privados que deban otorgarse en desarrollo de las actividades sociales o en inter\u00e9s de la sociedad. c) Designar al secretario de la compañia, que lo ser\u00e1 tambi\u00e9n de la Asamblea General de Accionistas; d) Designar los empleados que requiera el normal funcionamiento de la compañia y señalarles su remuneracion, excepto cuando se trate de aquellos que por ley o por estatutos deban ser designados por la Asamblea General de Accionistas; e) Presentar un informe de su gestion a la Asamblea General de Accionistas, sus reuniones ordinarias y el balance general de fin de ejercicio con un proyecto de distribucion de utilidades; f) Convocar a la Asamblea General de Accionistas a reuniones ordinarias y extraordinarias; g) Nombrar los \u00e1rbitros que correspondan a la sociedad en virtud de los compromisos, cuando asi lo autorice la Asamblea General de Accionistas, y de la cl\u00e1usula compromisoria que en estos estatutos se pacta; y h) Constituir los apoderados judiciales necesarios para la defensa de los intereses sociales. i) Organizara y gestionara adecuadamente los sistemas requeridos para la contabilizacion, pagos y dem\u00e1s operaciones de la sociedad. j) Velar\u00e1 y atender\u00e1 con la diligencia de buen hombre negocios todas las obligaciones de la sociedad en materia impositiva. k) Certificar conjuntamente con el contador de la compañia los estados financieros en el caso de ser dicha certificacion exigida por las normas legales. m) Tendr\u00e1 la facultad para celebrar todo tipo de actos y contratos con entidades p\u00fablicas, privadas y mixtas en desarrollo del objeto social y el giro ordinario del negocio. PARAGRAFO. a) El Gerente estar\u00e1 facultado para celebrar todo tipo de actos y contratos sin limite de cuantia alguno. b) El suplente del Gerente puede ejercer simult\u00e1neamente las facultades y funciones del Gerente siempre y cuando este asi lo designe, ya se manera general o provisional."
     }
   },
   {
@@ -94,46 +94,46 @@
     "nombre_estudiante": "jaime andres",
     "ID del Proceso": "CO1.REQ.6296595",
     "Nombre del Procedimiento": "Servicio de mantenimiento a bienes inmuebles recibidos en dacion en pago a cargo de la Direccion Seccional de Aduanas de Cucuta",
-    "Descripci\u00f3n del Procedimiento": "Servicio de mantenimiento a bienes inmuebles recibidos en dacion en pago a cargo de la Direccion Seccional de Aduanas de Cucuta",
+    "Descripcion del Procedimiento": "Servicio de mantenimiento a bienes inmuebles recibidos en dacion en pago a cargo de la Direccion Seccional de Aduanas de Cucuta",
     "Modalidad de Contratacion": "Minima cuantia",
-    "Justificaci\u00f3n Modalidad de Contrataci\u00f3n": "Presupuesto inferior al 10% de la menor cuantia",
+    "Justificacion Modalidad de Contratacion": "Presupuesto inferior al 10% de la menor cuantia",
     "formacion_rues": {
       "NIT": "NIT 900893525 - 0",
-      "Raz\u00f3n Social": "COINPROL S.A.S.",
+      "Razon Social": "COINPROL S.A.S.",
       "Sigla": "",
       "Municipio/Dpto": "CUCUTA / NORTE DE SANTANDER",
-      "Categor\u00eda": "SOCIEDAD \u00f3 PERSONA JURIDICA PRINCIPAL \u00f3 ESAL",
+      "Categoria": "SOCIEDAD o PERSONA JURIDICA PRINCIPAL o ESAL",
       "Numero de Matricula": "282190",
-      "\u00daltimo A\u00f1o Renovado": "2024",
+      "Ultimo Año Renovado": "2024",
       "Fecha de Renovacion": "20240321",
       "Fecha de Matricula": "20150929",
       "Fecha de Vigencia": "Indefinida",
       "Estado de la matricula": "ACTIVA",
-      "Motivo Cancelaci\u00f3n": "NORMAL",
+      "Motivo Cancelacion": "NORMAL",
       "Tipo de Sociedad": "SOCIEDAD COMERCIAL",
-      "Tipo de Organizaci\u00f3n": "SOCIEDADES POR ACCIONES SIMPLIFICADAS SAS",
-      "Categoria de la Matricula": "SOCIEDAD \u00f3 PERSONA JURIDICA PRINCIPAL \u00f3 ESAL",
-      "Fecha Ultima Actualizaci\u00f3n": "20241114",
+      "Tipo de Organizacion": "SOCIEDADES POR ACCIONES SIMPLIFICADAS SAS",
+      "Categoria de la Matricula": "SOCIEDAD o PERSONA JURIDICA PRINCIPAL o ESAL",
+      "Fecha Ultima Actualizacion": "20241114",
       "Emprendimiento Social": "N",
-      "Actividades Econ\u00f3micas": [
+      "Actividades Economicas": [
         {
-          "C\u00f3digo": "7112",
-          "Descripci\u00f3n": "Actividades de ingenier\u00eda y otras actividades conexas de consultor\u00eda t\u00e9cnica"
+          "Codigo": "7112",
+          "Descripcion": "Actividades de ingenieria y otras actividades conexas de consultoria t\u00e9cnica"
         },
         {
-          "C\u00f3digo": "8130",
-          "Descripci\u00f3n": "Actividades de paisajismo y servicios de mantenimiento conexos"
+          "Codigo": "8130",
+          "Descripcion": "Actividades de paisajismo y servicios de mantenimiento conexos"
         },
         {
-          "C\u00f3digo": "8129",
-          "Descripci\u00f3n": "Otras actividades de limpieza de edificios e instalaciones industriales"
+          "Codigo": "8129",
+          "Descripcion": "Otras actividades de limpieza de edificios e instalaciones industriales"
         },
         {
-          "C\u00f3digo": "3700",
-          "Descripci\u00f3n": "Evacuaci\u00f3n y tratamiento de aguas residuales"
+          "Codigo": "3700",
+          "Descripcion": "Evacuacion y tratamiento de aguas residuales"
         }
       ],
-      "Representantes Legales": "REPRESENTACION LEGAL (PRINCIPALES) ****  60328784 - BORRERO SUAREZ DEYANIRA  REPRESENTACION LEGAL (SUPLENTES) ****  1094267096 - NARVAEZ AGAMEZ KELLY JOHANA  FACULTADES ****  El Gerente est\u00e1 facultado para ejecutar todos los actos y contratos acordes con la naturaleza de su encargo y que se relacionen directamente con el giro ordinario de los negocios sociales. En especial, el Gerente tendr\u00e1 las siguientes funciones: a) Usar la firma o raz\u00f3n social; b) Autorizar con su firma todos los documentos p\u00fablicos o privados que deban otorgarse en desarrollo de las actividades sociales o en inter\u00e9s de la sociedad. c) Designar al secretario de la compa\u00f1\u00eda, que lo ser\u00e1 tambi\u00e9n de la Asamblea General de Accionistas; d) Designar los empleados que requiera el normal funcionamiento de la compa\u00f1\u00eda y se\u00f1alarles su remuneraci\u00f3n, excepto cuando se trate de aquellos que por ley o por estatutos deban ser designados por la Asamblea General de Accionistas; e) Presentar un informe de su gesti\u00f3n a la Asamblea General de Accionistas, sus reuniones ordinarias y el balance general de fin de ejercicio con un proyecto de distribuci\u00f3n de utilidades; f) Convocar a la Asamblea General de Accionistas a reuniones ordinarias y extraordinarias; g) Nombrar los \u00e1rbitros que correspondan a la sociedad en virtud de los compromisos, cuando as\u00ed lo autorice la Asamblea General de Accionistas, y de la cl\u00e1usula compromisoria que en estos estatutos se pacta; y h) Constituir los apoderados judiciales necesarios para la defensa de los intereses sociales. i) Organizara y gestionara adecuadamente los sistemas requeridos para la contabilizaci\u00f3n, pagos y dem\u00e1s operaciones de la sociedad. j) Velar\u00e1 y atender\u00e1 con la diligencia de buen hombre negocios todas las obligaciones de la sociedad en materia impositiva. k) Certificar conjuntamente con el contador de la compa\u00f1\u00eda los estados financieros en el caso de ser dicha certificaci\u00f3n exigida por las normas legales. m) Tendr\u00e1 la facultad para celebrar todo tipo de actos y contratos con entidades p\u00fablicas, privadas y mixtas en desarrollo del objeto social y el giro ordinario del negocio. PARAGRAFO. a) El Gerente estar\u00e1 facultado para celebrar todo tipo de actos y contratos sin l\u00edmite de cuant\u00eda alguno. b) El suplente del Gerente puede ejercer simult\u00e1neamente las facultades y funciones del Gerente siempre y cuando este as\u00ed lo designe, ya se manera general o provisional."
+      "Representantes Legales": "REPRESENTACION LEGAL (PRINCIPALES) ****  60328784 - BORRERO SUAREZ DEYANIRA  REPRESENTACION LEGAL (SUPLENTES) ****  1094267096 - NARVAEZ AGAMEZ KELLY JOHANA  FACULTADES ****  El Gerente est\u00e1 facultado para ejecutar todos los actos y contratos acordes con la naturaleza de su encargo y que se relacionen directamente con el giro ordinario de los negocios sociales. En especial, el Gerente tendr\u00e1 las siguientes funciones: a) Usar la firma o razon social; b) Autorizar con su firma todos los documentos p\u00fablicos o privados que deban otorgarse en desarrollo de las actividades sociales o en inter\u00e9s de la sociedad. c) Designar al secretario de la compañia, que lo ser\u00e1 tambi\u00e9n de la Asamblea General de Accionistas; d) Designar los empleados que requiera el normal funcionamiento de la compañia y señalarles su remuneracion, excepto cuando se trate de aquellos que por ley o por estatutos deban ser designados por la Asamblea General de Accionistas; e) Presentar un informe de su gestion a la Asamblea General de Accionistas, sus reuniones ordinarias y el balance general de fin de ejercicio con un proyecto de distribucion de utilidades; f) Convocar a la Asamblea General de Accionistas a reuniones ordinarias y extraordinarias; g) Nombrar los \u00e1rbitros que correspondan a la sociedad en virtud de los compromisos, cuando asi lo autorice la Asamblea General de Accionistas, y de la cl\u00e1usula compromisoria que en estos estatutos se pacta; y h) Constituir los apoderados judiciales necesarios para la defensa de los intereses sociales. i) Organizara y gestionara adecuadamente los sistemas requeridos para la contabilizacion, pagos y dem\u00e1s operaciones de la sociedad. j) Velar\u00e1 y atender\u00e1 con la diligencia de buen hombre negocios todas las obligaciones de la sociedad en materia impositiva. k) Certificar conjuntamente con el contador de la compañia los estados financieros en el caso de ser dicha certificacion exigida por las normas legales. m) Tendr\u00e1 la facultad para celebrar todo tipo de actos y contratos con entidades p\u00fablicas, privadas y mixtas en desarrollo del objeto social y el giro ordinario del negocio. PARAGRAFO. a) El Gerente estar\u00e1 facultado para celebrar todo tipo de actos y contratos sin limite de cuantia alguno. b) El suplente del Gerente puede ejercer simult\u00e1neamente las facultades y funciones del Gerente siempre y cuando este asi lo designe, ya se manera general o provisional."
     }
   },
   {
@@ -141,46 +141,46 @@
     "nombre_estudiante": "jaime andres",
     "ID del Proceso": "CO1.REQ.501833",
     "Nombre del Procedimiento": "PRESTACION DEL SERVICIO DE ASEO Y CAFETERIA INCLUIDOS ELEMENTOS DE ASEO Y CAFETERIA",
-    "Descripci\u00f3n del Procedimiento": "PRESTACION DEL SERVICIO DE ASEO Y CAFETERIA EN LA SEDE DEL INSTITUTO NACIONAL DE VIAS TERRITORIAL CALDAS; INCLUYENDO ELEMENTOS DE ASEO Y CAFETERIA",
+    "Descripcion del Procedimiento": "PRESTACION DEL SERVICIO DE ASEO Y CAFETERIA EN LA SEDE DEL INSTITUTO NACIONAL DE VIAS TERRITORIAL CALDAS; INCLUYENDO ELEMENTOS DE ASEO Y CAFETERIA",
     "Modalidad de Contratacion": "Minima cuantia",
-    "Justificaci\u00f3n Modalidad de Contrataci\u00f3n": "Presupuesto inferior al 10% de la menor cuantia",
+    "Justificacion Modalidad de Contratacion": "Presupuesto inferior al 10% de la menor cuantia",
     "formacion_rues": {
       "NIT": "NIT 810001366 - 3",
-      "Raz\u00f3n Social": "BIOSERVICIOS S.A.S.",
+      "Razon Social": "BIOSERVICIOS S.A.S.",
       "Sigla": "",
       "Municipio/Dpto": "MANIZALES / CALDAS",
-      "Categor\u00eda": "SOCIEDAD \u00f3 PERSONA JURIDICA PRINCIPAL \u00f3 ESAL",
+      "Categoria": "SOCIEDAD o PERSONA JURIDICA PRINCIPAL o ESAL",
       "Numero de Matricula": "75837",
-      "\u00daltimo A\u00f1o Renovado": "2024",
+      "Ultimo Año Renovado": "2024",
       "Fecha de Renovacion": "20240305",
       "Fecha de Matricula": "19970625",
       "Fecha de Vigencia": "Indefinida",
       "Estado de la matricula": "ACTIVA",
-      "Motivo Cancelaci\u00f3n": "NORMAL",
+      "Motivo Cancelacion": "NORMAL",
       "Tipo de Sociedad": "SOCIEDAD COMERCIAL",
-      "Tipo de Organizaci\u00f3n": "SOCIEDADES POR ACCIONES SIMPLIFICADAS SAS",
-      "Categoria de la Matricula": "SOCIEDAD \u00f3 PERSONA JURIDICA PRINCIPAL \u00f3 ESAL",
-      "Fecha Ultima Actualizaci\u00f3n": "20240606",
+      "Tipo de Organizacion": "SOCIEDADES POR ACCIONES SIMPLIFICADAS SAS",
+      "Categoria de la Matricula": "SOCIEDAD o PERSONA JURIDICA PRINCIPAL o ESAL",
+      "Fecha Ultima Actualizacion": "20240606",
       "Emprendimiento Social": "N",
-      "Actividades Econ\u00f3micas": [
+      "Actividades Economicas": [
         {
-          "C\u00f3digo": "8121",
-          "Descripci\u00f3n": "Limpieza general interior de edificios"
+          "Codigo": "8121",
+          "Descripcion": "Limpieza general interior de edificios"
         },
         {
-          "C\u00f3digo": "4330",
-          "Descripci\u00f3n": "Terminaci\u00f3n y acabado de edificios y obras de ingenier\u00eda civil"
+          "Codigo": "4330",
+          "Descripcion": "Terminacion y acabado de edificios y obras de ingenieria civil"
         },
         {
-          "C\u00f3digo": "3900",
-          "Descripci\u00f3n": "Actividades de saneamiento ambiental y otros servicios de gesti\u00f3n de desechos"
+          "Codigo": "3900",
+          "Descripcion": "Actividades de saneamiento ambiental y otros servicios de gestion de desechos"
         },
         {
-          "C\u00f3digo": "7830",
-          "Descripci\u00f3n": "Otras actividades de provisi\u00f3n de talento humano"
+          "Codigo": "7830",
+          "Descripcion": "Otras actividades de provision de talento humano"
         }
       ],
-      "Representantes Legales": "REPRESENTACION LEGAL (PRINCIPALES) ****  10277673 - URIBE CANO VICTOR HUGO  REPRESENTACION LEGAL (SUPLENTES) ****  10288325 - TABORDA OCAMPO MARIO HUMBERTO  FACULTADES ****  Es funcion de la asamblea general de accionistas, entre otras, la siguiente funcion: - Autorizar al representante legal para realizar cualquier acto o contrato comprendido dentro del giro ordinario de los negocios sociales, cuya cuantia o valor exceda de la cantidad de seis mil (6.000) salarios minimos mensuales legales vigentes al tiempo de celebrarse el contrato o formalizarse la operacion. Asi, la asamblea debera autorizar al gerente para: (i) efectuar negocios o hacer inversiones en portafolios de inversion, fondos de valores, papeles bursatiles, titulos valores o acciones de cualquier clase, y en general este tipo de operaciones con entidades bancarias y/o financieras, (ii) adquirir bienes para la sociedad o enajenar o de cualquier forma transferir los activos fijos de la compa\u00f1ia, hipotecar, gravar o limitar a cualquier titulo el dominio de los bienes muebles o inmuebles, hacer donaciones, tramitar y obtener creditos o realizar operaciones similares con entidades financieras o bancarias, (iii) ceder, traspasar o gravar, a cualquier titulo, marcas, patenttes o privilegios de los cuales la sociedad sea titular, (iv) solicitar la adminision de la sociedad a un proceso de reorganizacion o de liquidacion en los terminos del regimen de insolvencia que consagra la ley 1116 de 2006, o las disposiciones que la modifiquen o reglamenten; (v ) aprobar rebajas, condonaciones, renuncias o transacciones de derechos de la sociedad, bien sea en acuerdos dentro de procesos judiciales o arbitrales o fuera de ellos, y (vi) participar en la constitucion de sociedades comerciales o civiles y adquirir o enajenar a cualquier titulo cuotas, partes o acciones en esta misma clase de sociedades. Paragrafo 2\u00ba: La asamblea general de accionistas podra conceder al gerente autorizaciones globales especiales en el tiempo y en su monto o naturaleza, con miras a lograr una mayor eficiencia operativa.     Atribuciones: Son atribuciones del representante legal, ademas de las se\u00f1aladas en la ley, entre otras, las siguientes: - Representar a la sociedad como persona juridica. - Realizar las gestiones conducentes al adecuado desarrollo del objeto social. En tal sentido el gerente, y el suplente en su caso, requeriran autorizacion previa de la asamblea general de accionistas, o del accionista unico, para realizar cualquier acto o contrato comprendido dentro del giro ordinario de los negocios sociales, cuya cuantia o valor exceda de la cantidad de seis mil (6. 00 0) salarios minimos mensuales legales vigentes al tiempo de celebrarse el contrato o formalizarse la operacion. Asi, el gerente no podra, sin la autorizacion de la asamblea: I) efectuar negocios o hacer inversiones en portafolios de inversion, fondos de valores, papeles bursatiles, titulos valores o acciones de cualquier clase, y en general este tipo de operaciones con entidades bancarias y/o financieras; ii) adquirir bienes para la sociedad o enajenar o de cualquier forma transferir los activos fijos de la compa\u00f1ia; iii ) hipotecar, gravar o limitar a cualquier titulo el dominio de los bienes muebles o inmuebles; iv) tramitar y obtener creditos o realizar operaciones similares con entidades financieras o bancarias; v ) ceder, traspasar o gravar, a cualquier titulo, marcas, patentes o privilegios de los cuales la sociedad sea titular; vi) solicitar la admision de la sociedad a un proceso de reorganizacion o de liquidacion en los terminos del regimen de insolvencia que consagra la ley 1116 de 2006, o las disposiciones que la modifiquen o reglamenten; vi i) hacer donaciones, aprobar rebajas, condonaciones, renuncias o transacciones de derechos de la sociedad, bien sea en acuerdos dentro de procesos judiciales o arbitrales o fuera de ellos; y vii) participar en la constitucion de sociedades comerciales o civiles y adquirir o enajenar a cualquier titulo cuotas, partes o acciones en esta misma clase de sociedades. - Constituir para propositos concretos, los apoderados especiales que juzgue necesarios para representar a la sociedad judicial o extrajudicialmente. - Ejercer las demas funciones que le se\u00f1alen los estatutos sociales y las que legalmente le correspondan como organo de administracion de la sociedad, y todas aquellas que no le hayan sido asignadas por ley o los estatutos a otro organo de la compa\u00f1ia. Paragrafo. El gerente ha sido dotado de las facultades necesarias para celebrar o ejecutar en nombre de la sociedad todos los actos y contratos comprendidos dentro del objeto social o que se relacionen directamente con la existencia y el funcionamiento de la sociedad, facultades que le han sido limitadas en relacion con la naturaleza y en relacion con la cuantia de las operaciones que celebre, conforme se ha dejado estipulado en los estatutos. Cuando conforme a lo previsto en los estatutos deba actuar el suplente, este actuara y representara a la sociedad con iguales facultades y restricciones."
+      "Representantes Legales": "REPRESENTACION LEGAL (PRINCIPALES) ****  10277673 - URIBE CANO VICTOR HUGO  REPRESENTACION LEGAL (SUPLENTES) ****  10288325 - TABORDA OCAMPO MARIO HUMBERTO  FACULTADES ****  Es funcion de la asamblea general de accionistas, entre otras, la siguiente funcion: - Autorizar al representante legal para realizar cualquier acto o contrato comprendido dentro del giro ordinario de los negocios sociales, cuya cuantia o valor exceda de la cantidad de seis mil (6.000) salarios minimos mensuales legales vigentes al tiempo de celebrarse el contrato o formalizarse la operacion. Asi, la asamblea debera autorizar al gerente para: (i) efectuar negocios o hacer inversiones en portafolios de inversion, fondos de valores, papeles bursatiles, titulos valores o acciones de cualquier clase, y en general este tipo de operaciones con entidades bancarias y/o financieras, (ii) adquirir bienes para la sociedad o enajenar o de cualquier forma transferir los activos fijos de la compañia, hipotecar, gravar o limitar a cualquier titulo el dominio de los bienes muebles o inmuebles, hacer donaciones, tramitar y obtener creditos o realizar operaciones similares con entidades financieras o bancarias, (iii) ceder, traspasar o gravar, a cualquier titulo, marcas, patenttes o privilegios de los cuales la sociedad sea titular, (iv) solicitar la adminision de la sociedad a un proceso de reorganizacion o de liquidacion en los terminos del regimen de insolvencia que consagra la ley 1116 de 2006, o las disposiciones que la modifiquen o reglamenten; (v ) aprobar rebajas, condonaciones, renuncias o transacciones de derechos de la sociedad, bien sea en acuerdos dentro de procesos judiciales o arbitrales o fuera de ellos, y (vi) participar en la constitucion de sociedades comerciales o civiles y adquirir o enajenar a cualquier titulo cuotas, partes o acciones en esta misma clase de sociedades. Paragrafo 2\u00ba: La asamblea general de accionistas podra conceder al gerente autorizaciones globales especiales en el tiempo y en su monto o naturaleza, con miras a lograr una mayor eficiencia operativa.     Atribuciones: Son atribuciones del representante legal, ademas de las señaladas en la ley, entre otras, las siguientes: - Representar a la sociedad como persona juridica. - Realizar las gestiones conducentes al adecuado desarrollo del objeto social. En tal sentido el gerente, y el suplente en su caso, requeriran autorizacion previa de la asamblea general de accionistas, o del accionista unico, para realizar cualquier acto o contrato comprendido dentro del giro ordinario de los negocios sociales, cuya cuantia o valor exceda de la cantidad de seis mil (6. 00 0) salarios minimos mensuales legales vigentes al tiempo de celebrarse el contrato o formalizarse la operacion. Asi, el gerente no podra, sin la autorizacion de la asamblea: I) efectuar negocios o hacer inversiones en portafolios de inversion, fondos de valores, papeles bursatiles, titulos valores o acciones de cualquier clase, y en general este tipo de operaciones con entidades bancarias y/o financieras; ii) adquirir bienes para la sociedad o enajenar o de cualquier forma transferir los activos fijos de la compañia; iii ) hipotecar, gravar o limitar a cualquier titulo el dominio de los bienes muebles o inmuebles; iv) tramitar y obtener creditos o realizar operaciones similares con entidades financieras o bancarias; v ) ceder, traspasar o gravar, a cualquier titulo, marcas, patentes o privilegios de los cuales la sociedad sea titular; vi) solicitar la admision de la sociedad a un proceso de reorganizacion o de liquidacion en los terminos del regimen de insolvencia que consagra la ley 1116 de 2006, o las disposiciones que la modifiquen o reglamenten; vi i) hacer donaciones, aprobar rebajas, condonaciones, renuncias o transacciones de derechos de la sociedad, bien sea en acuerdos dentro de procesos judiciales o arbitrales o fuera de ellos; y vii) participar en la constitucion de sociedades comerciales o civiles y adquirir o enajenar a cualquier titulo cuotas, partes o acciones en esta misma clase de sociedades. - Constituir para propositos concretos, los apoderados especiales que juzgue necesarios para representar a la sociedad judicial o extrajudicialmente. - Ejercer las demas funciones que le señalen los estatutos sociales y las que legalmente le correspondan como organo de administracion de la sociedad, y todas aquellas que no le hayan sido asignadas por ley o los estatutos a otro organo de la compañia. Paragrafo. El gerente ha sido dotado de las facultades necesarias para celebrar o ejecutar en nombre de la sociedad todos los actos y contratos comprendidos dentro del objeto social o que se relacionen directamente con la existencia y el funcionamiento de la sociedad, facultades que le han sido limitadas en relacion con la naturaleza y en relacion con la cuantia de las operaciones que celebre, conforme se ha dejado estipulado en los estatutos. Cuando conforme a lo previsto en los estatutos deba actuar el suplente, este actuara y representara a la sociedad con iguales facultades y restricciones."
     }
   },
   {
@@ -188,46 +188,46 @@
     "nombre_estudiante": "jaime andres",
     "ID del Proceso": "CO1.REQ.501833",
     "Nombre del Procedimiento": "PRESTACION DEL SERVICIO DE ASEO Y CAFETERIA INCLUIDOS ELEMENTOS DE ASEO Y CAFETERIA",
-    "Descripci\u00f3n del Procedimiento": "PRESTACION DEL SERVICIO DE ASEO Y CAFETERIA EN LA SEDE DEL INSTITUTO NACIONAL DE VIAS TERRITORIAL CALDAS; INCLUYENDO ELEMENTOS DE ASEO Y CAFETERIA",
+    "Descripcion del Procedimiento": "PRESTACION DEL SERVICIO DE ASEO Y CAFETERIA EN LA SEDE DEL INSTITUTO NACIONAL DE VIAS TERRITORIAL CALDAS; INCLUYENDO ELEMENTOS DE ASEO Y CAFETERIA",
     "Modalidad de Contratacion": "Minima cuantia",
-    "Justificaci\u00f3n Modalidad de Contrataci\u00f3n": "Presupuesto inferior al 10% de la menor cuantia",
+    "Justificacion Modalidad de Contratacion": "Presupuesto inferior al 10% de la menor cuantia",
     "formacion_rues": {
       "NIT": "NIT 810001366 - 3",
-      "Raz\u00f3n Social": "BIOSERVICIOS S.A.S.",
+      "Razon Social": "BIOSERVICIOS S.A.S.",
       "Sigla": "",
       "Municipio/Dpto": "MANIZALES / CALDAS",
-      "Categor\u00eda": "SOCIEDAD \u00f3 PERSONA JURIDICA PRINCIPAL \u00f3 ESAL",
+      "Categoria": "SOCIEDAD o PERSONA JURIDICA PRINCIPAL o ESAL",
       "Numero de Matricula": "75837",
-      "\u00daltimo A\u00f1o Renovado": "2024",
+      "Ultimo Año Renovado": "2024",
       "Fecha de Renovacion": "20240305",
       "Fecha de Matricula": "19970625",
       "Fecha de Vigencia": "Indefinida",
       "Estado de la matricula": "ACTIVA",
-      "Motivo Cancelaci\u00f3n": "NORMAL",
+      "Motivo Cancelacion": "NORMAL",
       "Tipo de Sociedad": "SOCIEDAD COMERCIAL",
-      "Tipo de Organizaci\u00f3n": "SOCIEDADES POR ACCIONES SIMPLIFICADAS SAS",
-      "Categoria de la Matricula": "SOCIEDAD \u00f3 PERSONA JURIDICA PRINCIPAL \u00f3 ESAL",
-      "Fecha Ultima Actualizaci\u00f3n": "20240606",
+      "Tipo de Organizacion": "SOCIEDADES POR ACCIONES SIMPLIFICADAS SAS",
+      "Categoria de la Matricula": "SOCIEDAD o PERSONA JURIDICA PRINCIPAL o ESAL",
+      "Fecha Ultima Actualizacion": "20240606",
       "Emprendimiento Social": "N",
-      "Actividades Econ\u00f3micas": [
+      "Actividades Economicas": [
         {
-          "C\u00f3digo": "8121",
-          "Descripci\u00f3n": "Limpieza general interior de edificios"
+          "Codigo": "8121",
+          "Descripcion": "Limpieza general interior de edificios"
         },
         {
-          "C\u00f3digo": "4330",
-          "Descripci\u00f3n": "Terminaci\u00f3n y acabado de edificios y obras de ingenier\u00eda civil"
+          "Codigo": "4330",
+          "Descripcion": "Terminacion y acabado de edificios y obras de ingenieria civil"
         },
         {
-          "C\u00f3digo": "3900",
-          "Descripci\u00f3n": "Actividades de saneamiento ambiental y otros servicios de gesti\u00f3n de desechos"
+          "Codigo": "3900",
+          "Descripcion": "Actividades de saneamiento ambiental y otros servicios de gestion de desechos"
         },
         {
-          "C\u00f3digo": "7830",
-          "Descripci\u00f3n": "Otras actividades de provisi\u00f3n de talento humano"
+          "Codigo": "7830",
+          "Descripcion": "Otras actividades de provision de talento humano"
         }
       ],
-      "Representantes Legales": "REPRESENTACION LEGAL (PRINCIPALES) ****  10277673 - URIBE CANO VICTOR HUGO  REPRESENTACION LEGAL (SUPLENTES) ****  10288325 - TABORDA OCAMPO MARIO HUMBERTO  FACULTADES ****  Es funcion de la asamblea general de accionistas, entre otras, la siguiente funcion: - Autorizar al representante legal para realizar cualquier acto o contrato comprendido dentro del giro ordinario de los negocios sociales, cuya cuantia o valor exceda de la cantidad de seis mil (6.000) salarios minimos mensuales legales vigentes al tiempo de celebrarse el contrato o formalizarse la operacion. Asi, la asamblea debera autorizar al gerente para: (i) efectuar negocios o hacer inversiones en portafolios de inversion, fondos de valores, papeles bursatiles, titulos valores o acciones de cualquier clase, y en general este tipo de operaciones con entidades bancarias y/o financieras, (ii) adquirir bienes para la sociedad o enajenar o de cualquier forma transferir los activos fijos de la compa\u00f1ia, hipotecar, gravar o limitar a cualquier titulo el dominio de los bienes muebles o inmuebles, hacer donaciones, tramitar y obtener creditos o realizar operaciones similares con entidades financieras o bancarias, (iii) ceder, traspasar o gravar, a cualquier titulo, marcas, patenttes o privilegios de los cuales la sociedad sea titular, (iv) solicitar la adminision de la sociedad a un proceso de reorganizacion o de liquidacion en los terminos del regimen de insolvencia que consagra la ley 1116 de 2006, o las disposiciones que la modifiquen o reglamenten; (v ) aprobar rebajas, condonaciones, renuncias o transacciones de derechos de la sociedad, bien sea en acuerdos dentro de procesos judiciales o arbitrales o fuera de ellos, y (vi) participar en la constitucion de sociedades comerciales o civiles y adquirir o enajenar a cualquier titulo cuotas, partes o acciones en esta misma clase de sociedades. Paragrafo 2\u00ba: La asamblea general de accionistas podra conceder al gerente autorizaciones globales especiales en el tiempo y en su monto o naturaleza, con miras a lograr una mayor eficiencia operativa.     Atribuciones: Son atribuciones del representante legal, ademas de las se\u00f1aladas en la ley, entre otras, las siguientes: - Representar a la sociedad como persona juridica. - Realizar las gestiones conducentes al adecuado desarrollo del objeto social. En tal sentido el gerente, y el suplente en su caso, requeriran autorizacion previa de la asamblea general de accionistas, o del accionista unico, para realizar cualquier acto o contrato comprendido dentro del giro ordinario de los negocios sociales, cuya cuantia o valor exceda de la cantidad de seis mil (6. 00 0) salarios minimos mensuales legales vigentes al tiempo de celebrarse el contrato o formalizarse la operacion. Asi, el gerente no podra, sin la autorizacion de la asamblea: I) efectuar negocios o hacer inversiones en portafolios de inversion, fondos de valores, papeles bursatiles, titulos valores o acciones de cualquier clase, y en general este tipo de operaciones con entidades bancarias y/o financieras; ii) adquirir bienes para la sociedad o enajenar o de cualquier forma transferir los activos fijos de la compa\u00f1ia; iii ) hipotecar, gravar o limitar a cualquier titulo el dominio de los bienes muebles o inmuebles; iv) tramitar y obtener creditos o realizar operaciones similares con entidades financieras o bancarias; v ) ceder, traspasar o gravar, a cualquier titulo, marcas, patentes o privilegios de los cuales la sociedad sea titular; vi) solicitar la admision de la sociedad a un proceso de reorganizacion o de liquidacion en los terminos del regimen de insolvencia que consagra la ley 1116 de 2006, o las disposiciones que la modifiquen o reglamenten; vi i) hacer donaciones, aprobar rebajas, condonaciones, renuncias o transacciones de derechos de la sociedad, bien sea en acuerdos dentro de procesos judiciales o arbitrales o fuera de ellos; y vii) participar en la constitucion de sociedades comerciales o civiles y adquirir o enajenar a cualquier titulo cuotas, partes o acciones en esta misma clase de sociedades. - Constituir para propositos concretos, los apoderados especiales que juzgue necesarios para representar a la sociedad judicial o extrajudicialmente. - Ejercer las demas funciones que le se\u00f1alen los estatutos sociales y las que legalmente le correspondan como organo de administracion de la sociedad, y todas aquellas que no le hayan sido asignadas por ley o los estatutos a otro organo de la compa\u00f1ia. Paragrafo. El gerente ha sido dotado de las facultades necesarias para celebrar o ejecutar en nombre de la sociedad todos los actos y contratos comprendidos dentro del objeto social o que se relacionen directamente con la existencia y el funcionamiento de la sociedad, facultades que le han sido limitadas en relacion con la naturaleza y en relacion con la cuantia de las operaciones que celebre, conforme se ha dejado estipulado en los estatutos. Cuando conforme a lo previsto en los estatutos deba actuar el suplente, este actuara y representara a la sociedad con iguales facultades y restricciones."
+      "Representantes Legales": "REPRESENTACION LEGAL (PRINCIPALES) ****  10277673 - URIBE CANO VICTOR HUGO  REPRESENTACION LEGAL (SUPLENTES) ****  10288325 - TABORDA OCAMPO MARIO HUMBERTO  FACULTADES ****  Es funcion de la asamblea general de accionistas, entre otras, la siguiente funcion: - Autorizar al representante legal para realizar cualquier acto o contrato comprendido dentro del giro ordinario de los negocios sociales, cuya cuantia o valor exceda de la cantidad de seis mil (6.000) salarios minimos mensuales legales vigentes al tiempo de celebrarse el contrato o formalizarse la operacion. Asi, la asamblea debera autorizar al gerente para: (i) efectuar negocios o hacer inversiones en portafolios de inversion, fondos de valores, papeles bursatiles, titulos valores o acciones de cualquier clase, y en general este tipo de operaciones con entidades bancarias y/o financieras, (ii) adquirir bienes para la sociedad o enajenar o de cualquier forma transferir los activos fijos de la compañia, hipotecar, gravar o limitar a cualquier titulo el dominio de los bienes muebles o inmuebles, hacer donaciones, tramitar y obtener creditos o realizar operaciones similares con entidades financieras o bancarias, (iii) ceder, traspasar o gravar, a cualquier titulo, marcas, patenttes o privilegios de los cuales la sociedad sea titular, (iv) solicitar la adminision de la sociedad a un proceso de reorganizacion o de liquidacion en los terminos del regimen de insolvencia que consagra la ley 1116 de 2006, o las disposiciones que la modifiquen o reglamenten; (v ) aprobar rebajas, condonaciones, renuncias o transacciones de derechos de la sociedad, bien sea en acuerdos dentro de procesos judiciales o arbitrales o fuera de ellos, y (vi) participar en la constitucion de sociedades comerciales o civiles y adquirir o enajenar a cualquier titulo cuotas, partes o acciones en esta misma clase de sociedades. Paragrafo 2\u00ba: La asamblea general de accionistas podra conceder al gerente autorizaciones globales especiales en el tiempo y en su monto o naturaleza, con miras a lograr una mayor eficiencia operativa.     Atribuciones: Son atribuciones del representante legal, ademas de las señaladas en la ley, entre otras, las siguientes: - Representar a la sociedad como persona juridica. - Realizar las gestiones conducentes al adecuado desarrollo del objeto social. En tal sentido el gerente, y el suplente en su caso, requeriran autorizacion previa de la asamblea general de accionistas, o del accionista unico, para realizar cualquier acto o contrato comprendido dentro del giro ordinario de los negocios sociales, cuya cuantia o valor exceda de la cantidad de seis mil (6. 00 0) salarios minimos mensuales legales vigentes al tiempo de celebrarse el contrato o formalizarse la operacion. Asi, el gerente no podra, sin la autorizacion de la asamblea: I) efectuar negocios o hacer inversiones en portafolios de inversion, fondos de valores, papeles bursatiles, titulos valores o acciones de cualquier clase, y en general este tipo de operaciones con entidades bancarias y/o financieras; ii) adquirir bienes para la sociedad o enajenar o de cualquier forma transferir los activos fijos de la compañia; iii ) hipotecar, gravar o limitar a cualquier titulo el dominio de los bienes muebles o inmuebles; iv) tramitar y obtener creditos o realizar operaciones similares con entidades financieras o bancarias; v ) ceder, traspasar o gravar, a cualquier titulo, marcas, patentes o privilegios de los cuales la sociedad sea titular; vi) solicitar la admision de la sociedad a un proceso de reorganizacion o de liquidacion en los terminos del regimen de insolvencia que consagra la ley 1116 de 2006, o las disposiciones que la modifiquen o reglamenten; vi i) hacer donaciones, aprobar rebajas, condonaciones, renuncias o transacciones de derechos de la sociedad, bien sea en acuerdos dentro de procesos judiciales o arbitrales o fuera de ellos; y vii) participar en la constitucion de sociedades comerciales o civiles y adquirir o enajenar a cualquier titulo cuotas, partes o acciones en esta misma clase de sociedades. - Constituir para propositos concretos, los apoderados especiales que juzgue necesarios para representar a la sociedad judicial o extrajudicialmente. - Ejercer las demas funciones que le señalen los estatutos sociales y las que legalmente le correspondan como organo de administracion de la sociedad, y todas aquellas que no le hayan sido asignadas por ley o los estatutos a otro organo de la compañia. Paragrafo. El gerente ha sido dotado de las facultades necesarias para celebrar o ejecutar en nombre de la sociedad todos los actos y contratos comprendidos dentro del objeto social o que se relacionen directamente con la existencia y el funcionamiento de la sociedad, facultades que le han sido limitadas en relacion con la naturaleza y en relacion con la cuantia de las operaciones que celebre, conforme se ha dejado estipulado en los estatutos. Cuando conforme a lo previsto en los estatutos deba actuar el suplente, este actuara y representara a la sociedad con iguales facultades y restricciones."
     }
   },
   {
@@ -235,44 +235,44 @@
     "nombre_estudiante": "jaime andres",
     "ID del Proceso": "CO1.REQ.5993377",
     "Nombre del Procedimiento": "CONTRATAR A TRAVES DE SELECCION ABREVIADA; MEDIANTE LA MODALIDAD DE SUBASTA INVERSA ELECTRONICA EL SUMINISTRO DE PRODUCTOS ALIMENTICIOS DE MOLINERIA; ALMIDONES Y PRODUCTOS OTROS PRODUCTOS ALIMENTICIOS",
-    "Descripci\u00f3n del Procedimiento": "CONTRATAR A TRAVES DE SELECCION ABREVIADA, MEDIANTE LA MODALIDAD DE SUBASTA INVERSA ELECTRONICA EL SUMINISTRO DE PRODUCTOS ALIMENTICIOS DE MOLINERIA, ALMIDONES Y PRODUCTOS OTROS PRODUCTOS ALIMENTICIOS (materia prima panaderia, arepas), PRODUCTOS LACTEOS Y OVOPRODUCTOS CARNE, PESCADO, FRUTAS, HORTALIZAS, ACEITES Y GRASAS, PARA COMERCIALIZAR A TRAVES DEL ALMACEN EXPENDIO DE LA CPMSBOG.",
+    "Descripcion del Procedimiento": "CONTRATAR A TRAVES DE SELECCION ABREVIADA, MEDIANTE LA MODALIDAD DE SUBASTA INVERSA ELECTRONICA EL SUMINISTRO DE PRODUCTOS ALIMENTICIOS DE MOLINERIA, ALMIDONES Y PRODUCTOS OTROS PRODUCTOS ALIMENTICIOS (materia prima panaderia, arepas), PRODUCTOS LACTEOS Y OVOPRODUCTOS CARNE, PESCADO, FRUTAS, HORTALIZAS, ACEITES Y GRASAS, PARA COMERCIALIZAR A TRAVES DEL ALMACEN EXPENDIO DE LA CPMSBOG.",
     "Modalidad de Contratacion": "Seleccion abreviada subasta inversa",
-    "Justificaci\u00f3n Modalidad de Contrataci\u00f3n": "Suministro de bienes y servicios de caracteristicas tecnicas uniformes y comun utilizacion",
+    "Justificacion Modalidad de Contratacion": "Suministro de bienes y servicios de caracteristicas tecnicas uniformes y comun utilizacion",
     "formacion_rues": {
       "NIT": "NIT 900503041 - 6",
-      "Raz\u00f3n Social": "SUPRISA SAS",
+      "Razon Social": "SUPRISA SAS",
       "Sigla": "",
       "Municipio/Dpto": "BOGOTA, D.C. / BOGOTA",
-      "Categor\u00eda": "SOCIEDAD \u00f3 PERSONA JURIDICA PRINCIPAL \u00f3 ESAL",
+      "Categoria": "SOCIEDAD o PERSONA JURIDICA PRINCIPAL o ESAL",
       "Numero de Matricula": "2186763",
-      "\u00daltimo A\u00f1o Renovado": "2024",
+      "Ultimo Año Renovado": "2024",
       "Fecha de Renovacion": "20240401",
       "Fecha de Matricula": "20120227",
       "Fecha de Vigencia": "Indefinida",
       "Estado de la matricula": "ACTIVA",
       "Tipo de Sociedad": "SOCIEDAD COMERCIAL",
-      "Tipo de Organizaci\u00f3n": "SOCIEDADES POR ACCIONES SIMPLIFICADAS SAS",
-      "Categoria de la Matricula": "SOCIEDAD \u00f3 PERSONA JURIDICA PRINCIPAL \u00f3 ESAL",
-      "Fecha Ultima Actualizaci\u00f3n": "20241213",
-      "Actividades Econ\u00f3micas": [
+      "Tipo de Organizacion": "SOCIEDADES POR ACCIONES SIMPLIFICADAS SAS",
+      "Categoria de la Matricula": "SOCIEDAD o PERSONA JURIDICA PRINCIPAL o ESAL",
+      "Fecha Ultima Actualizacion": "20241213",
+      "Actividades Economicas": [
         {
-          "C\u00f3digo": "4690",
-          "Descripci\u00f3n": "Comercio al por mayor no especializado"
+          "Codigo": "4690",
+          "Descripcion": "Comercio al por mayor no especializado"
         },
         {
-          "C\u00f3digo": "4669",
-          "Descripci\u00f3n": "Comercio al por mayor de otros productos n.c.p."
+          "Codigo": "4669",
+          "Descripcion": "Comercio al por mayor de otros productos n.c.p."
         },
         {
-          "C\u00f3digo": "4649",
-          "Descripci\u00f3n": "Comercio al por mayor de otros utensilios dom\u00e9sticos n.c.p."
+          "Codigo": "4649",
+          "Descripcion": "Comercio al por mayor de otros utensilios dom\u00e9sticos n.c.p."
         },
         {
-          "C\u00f3digo": "4631",
-          "Descripci\u00f3n": "Comercio al por mayor de productos alimenticios"
+          "Codigo": "4631",
+          "Descripcion": "Comercio al por mayor de productos alimenticios"
         }
       ],
-      "Representantes Legales": "La representaci\u00f3n legal de la sociedad por acciones simplificada estar\u00e1 a cargo de una persona natural o jur\u00eddica, accionista o no, quien tendr\u00e1 un suplente, designado para un t\u00e9rmino de un a\u00f1o por la Asamblea General de Accionistas. Por  Documento Privado del 24 de febrero de 2012, de Accionista \u00danico, inscrita  en  esta  C\u00e1mara de Comercio el 27 de febrero de 2012 con el No. 01611235 del Libro IX, se design\u00f3 a: . CARGO             NOMBRE                    IDENTIFICACI\u00d3N . Representante     Gilberto          Ortiz   C.C. No. 5935509           Legal             Bohorquez                                            . La sociedad ser\u00e1 gerenciada, administrada y representada legalmente ante terceros por el Representante Legal, quien podr\u00e1 celebrar o ejecutar todos los actos y contratos comprendidos en el objeto social o que se relacionen directamente con la existencia y el funcionamiento de la sociedad sin l\u00edmite de cuant\u00eda. El Representante Legal se entender\u00e1 investido de los poderes para actuar en todas las circunstancias en nombre de la sociedad, con excepci\u00f3n de aquellas facultades que, de acuerdo con los estatutos, se hubieren reservado los accionistas. En las relaciones frente a terceros, la sociedad quedar\u00e1 obligada por los actos y contratos celebrados por el Representante Legal. Le est\u00e1 prohibido al Representante Legal y a los dem\u00e1s administradores de la sociedad, por s\u00ed o por interpuesta persona, obtener bajo cualquier forma o modalidad jur\u00eddica pr\u00e9stamos por parte de la sociedad u obtener de parte de la sociedad aval, fianza o cualquier otro tipo de garant\u00eda de sus obligaciones personales."
+      "Representantes Legales": "La representacion legal de la sociedad por acciones simplificada estar\u00e1 a cargo de una persona natural o juridica, accionista o no, quien tendr\u00e1 un suplente, designado para un t\u00e9rmino de un año por la Asamblea General de Accionistas. Por  Documento Privado del 24 de febrero de 2012, de Accionista Unico, inscrita  en  esta  C\u00e1mara de Comercio el 27 de febrero de 2012 con el No. 01611235 del Libro IX, se designo a: . CARGO             NOMBRE                    IDENTIFICACI\u00d3N . Representante     Gilberto          Ortiz   C.C. No. 5935509           Legal             Bohorquez                                            . La sociedad ser\u00e1 gerenciada, administrada y representada legalmente ante terceros por el Representante Legal, quien podr\u00e1 celebrar o ejecutar todos los actos y contratos comprendidos en el objeto social o que se relacionen directamente con la existencia y el funcionamiento de la sociedad sin limite de cuantia. El Representante Legal se entender\u00e1 investido de los poderes para actuar en todas las circunstancias en nombre de la sociedad, con excepcion de aquellas facultades que, de acuerdo con los estatutos, se hubieren reservado los accionistas. En las relaciones frente a terceros, la sociedad quedar\u00e1 obligada por los actos y contratos celebrados por el Representante Legal. Le est\u00e1 prohibido al Representante Legal y a los dem\u00e1s administradores de la sociedad, por si o por interpuesta persona, obtener bajo cualquier forma o modalidad juridica pr\u00e9stamos por parte de la sociedad u obtener de parte de la sociedad aval, fianza o cualquier otro tipo de garantia de sus obligaciones personales."
     }
   },
   {
@@ -280,40 +280,40 @@
     "nombre_estudiante": "jaime andres",
     "ID del Proceso": "CO1.REQ.2933079",
     "Nombre del Procedimiento": "EQUIPO BIOMEDICO (Presentacion de oferta)",
-    "Descripci\u00f3n del Procedimiento": "ADQUISICION DE EQUIPO BIOMEDICO PARA LA JEFATURA SALUD FUERZA AEREA COLOMBIANA Y SUS ESTABLECIMIENTOS DE SANIDAD MILITAR A NIVEL NACIONAL",
+    "Descripcion del Procedimiento": "ADQUISICION DE EQUIPO BIOMEDICO PARA LA JEFATURA SALUD FUERZA AEREA COLOMBIANA Y SUS ESTABLECIMIENTOS DE SANIDAD MILITAR A NIVEL NACIONAL",
     "Modalidad de Contratacion": "Seleccion abreviada subasta inversa",
-    "Justificaci\u00f3n Modalidad de Contrataci\u00f3n": "Suministro de bienes y servicios de caracteristicas tecnicas uniformes y comun utilizacion",
+    "Justificacion Modalidad de Contratacion": "Suministro de bienes y servicios de caracteristicas tecnicas uniformes y comun utilizacion",
     "formacion_rues": {
       "NIT": "NIT 860070078 - 3",
-      "Raz\u00f3n Social": "IMCOLMEDICA S A",
+      "Razon Social": "IMCOLMEDICA S A",
       "Sigla": "",
       "Municipio/Dpto": "BOGOTA, D.C. / BOGOTA",
-      "Categor\u00eda": "SOCIEDAD \u00f3 PERSONA JURIDICA PRINCIPAL \u00f3 ESAL",
+      "Categoria": "SOCIEDAD o PERSONA JURIDICA PRINCIPAL o ESAL",
       "Numero de Matricula": "119029",
-      "\u00daltimo A\u00f1o Renovado": "2024",
+      "Ultimo Año Renovado": "2024",
       "Fecha de Renovacion": "20240321",
       "Fecha de Matricula": "19790523",
       "Fecha de Vigencia": "20500504",
       "Estado de la matricula": "ACTIVA",
       "Tipo de Sociedad": "SOCIEDAD COMERCIAL",
-      "Tipo de Organizaci\u00f3n": "SOCIEDAD ANONIMA",
-      "Categoria de la Matricula": "SOCIEDAD \u00f3 PERSONA JURIDICA PRINCIPAL \u00f3 ESAL",
-      "Fecha Ultima Actualizaci\u00f3n": "20240321",
-      "Actividades Econ\u00f3micas": [
+      "Tipo de Organizacion": "SOCIEDAD ANONIMA",
+      "Categoria de la Matricula": "SOCIEDAD o PERSONA JURIDICA PRINCIPAL o ESAL",
+      "Fecha Ultima Actualizacion": "20240321",
+      "Actividades Economicas": [
         {
-          "C\u00f3digo": "4659",
-          "Descripci\u00f3n": "Comercio al por mayor de otros tipos de maquinaria y equipo n.c.p."
+          "Codigo": "4659",
+          "Descripcion": "Comercio al por mayor de otros tipos de maquinaria y equipo n.c.p."
         },
         {
-          "C\u00f3digo": "3312",
-          "Descripci\u00f3n": "Mantenimiento y reparaci\u00f3n especializado de maquinaria y equipo"
+          "Codigo": "3312",
+          "Descripcion": "Mantenimiento y reparacion especializado de maquinaria y equipo"
         },
         {
-          "C\u00f3digo": "6810",
-          "Descripci\u00f3n": "Actividades inmobiliarias realizadas con bienes propios o arrendados"
+          "Codigo": "6810",
+          "Descripcion": "Actividades inmobiliarias realizadas con bienes propios o arrendados"
         }
       ],
-      "Representantes Legales": "Los representantes legales son: El Gerente y el Gerente Sustituto y un Representante Legal Judicial. Mediante  Escritura  P\u00fablica  No.  0002119  del  4 de mayo de 1979, de Notar\u00eda 7 de Bogot\u00e1 D.C., inscrita en esta C\u00e1mara de Comercio el 23 de mayo de 1979 con el No. 00071015 del Libro IX, se design\u00f3 a: . CARGO               NOMBRE                   IDENTIFICACI\u00d3N . Gerente            Castelblanco   Moreno    C.C. No. 000000019139063   Sustituto          Jairo Orlando                                       . Mediante  Acta  No.  0000039  del 3 de noviembre de 1992,, inscrita en esta C\u00e1mara de Comercio el 19 de marzo de 1993 con el No. 00399910 del Libro IX, se design\u00f3 a: . CARGO               NOMBRE                   IDENTIFICACI\u00d3N . Gerente            \u00d1ustes Alberto           C.C. No. 000000017128114   . Mediante  Acta  No.  70  del  1  de  abril  de  2016,  de  Asamblea de Accionistas,  inscrita  en  esta  C\u00e1mara de Comercio el 2 de agosto de 2016 con el No. 02128028 del Libro IX, se design\u00f3 a: . CARGO               NOMBRE                   IDENTIFICACI\u00d3N . Representante      Lagos        Buitrago    C.C. No. 000000079754632   Legal Judicial     Bixmar Gregorio                                     . El Gerente es el representante legal de la sociedad para todos los efectos, y tendr\u00e1 las siguientes funciones: 1) Representar a la sociedad ante los accionistas, ante terceros, ante toda clase de entidades y organismos de derecho p\u00fablico, y de derecho privado y en toda clase de actos y contratos. La \u00fanica limitaci\u00f3n de que tengan objeto y causa l\u00edcitos. Por tanto queda facultado expresamente para que a nombre de la sociedad compre y venda bienes muebles e inmuebles, constituya prendas e hipotecas sobre sus bienes, acepte en su nombre toda clase de obligaciones, celebre contratos de arrendamiento, otorgue escrituras p\u00fablicas, firmas letras, cheques, pagares, libranzas y cualquiera otros documentos y en general disponer de los derechos y bienes sociales de cualquier naturaleza y cuant\u00eda. 2) Nombrar y remover los empleados de su dependencia. 3) Convocar a la asamblea y a la junta directiva a reuniones extraordinarias cuando lo estime conveniente o necesario. 4) Presentar a la Asamblea General en sus reuniones ordinarias un Inventario y un balance de fin de ejercicio, junto con un informe escrito de la situaci\u00f3n de la sociedad, un detalle completo de la cuenta p\u00e9rdidas y ganancias y un proyecto de distribuci\u00f3n de utilidades obtenidas. 5) Las dem\u00e1s que le confiere la ley. El representante legal judicial tendr\u00e1 las facultades de conciliar, recibir, transigir y confesar ante los jueces civiles, administrativos, laborales y dem\u00e1s autoridades que lo requieran en su condici\u00f3n de demandante, demandado, incidentazo o denunciante."
+      "Representantes Legales": "Los representantes legales son: El Gerente y el Gerente Sustituto y un Representante Legal Judicial. Mediante  Escritura  P\u00fablica  No.  0002119  del  4 de mayo de 1979, de Notaria 7 de Bogot\u00e1 D.C., inscrita en esta C\u00e1mara de Comercio el 23 de mayo de 1979 con el No. 00071015 del Libro IX, se designo a: . CARGO               NOMBRE                   IDENTIFICACI\u00d3N . Gerente            Castelblanco   Moreno    C.C. No. 000000019139063   Sustituto          Jairo Orlando                                       . Mediante  Acta  No.  0000039  del 3 de noviembre de 1992,, inscrita en esta C\u00e1mara de Comercio el 19 de marzo de 1993 con el No. 00399910 del Libro IX, se designo a: . CARGO               NOMBRE                   IDENTIFICACI\u00d3N . Gerente            \u00d1ustes Alberto           C.C. No. 000000017128114   . Mediante  Acta  No.  70  del  1  de  abril  de  2016,  de  Asamblea de Accionistas,  inscrita  en  esta  C\u00e1mara de Comercio el 2 de agosto de 2016 con el No. 02128028 del Libro IX, se designo a: . CARGO               NOMBRE                   IDENTIFICACI\u00d3N . Representante      Lagos        Buitrago    C.C. No. 000000079754632   Legal Judicial     Bixmar Gregorio                                     . El Gerente es el representante legal de la sociedad para todos los efectos, y tendr\u00e1 las siguientes funciones: 1) Representar a la sociedad ante los accionistas, ante terceros, ante toda clase de entidades y organismos de derecho p\u00fablico, y de derecho privado y en toda clase de actos y contratos. La \u00fanica limitacion de que tengan objeto y causa licitos. Por tanto queda facultado expresamente para que a nombre de la sociedad compre y venda bienes muebles e inmuebles, constituya prendas e hipotecas sobre sus bienes, acepte en su nombre toda clase de obligaciones, celebre contratos de arrendamiento, otorgue escrituras p\u00fablicas, firmas letras, cheques, pagares, libranzas y cualquiera otros documentos y en general disponer de los derechos y bienes sociales de cualquier naturaleza y cuantia. 2) Nombrar y remover los empleados de su dependencia. 3) Convocar a la asamblea y a la junta directiva a reuniones extraordinarias cuando lo estime conveniente o necesario. 4) Presentar a la Asamblea General en sus reuniones ordinarias un Inventario y un balance de fin de ejercicio, junto con un informe escrito de la situacion de la sociedad, un detalle completo de la cuenta p\u00e9rdidas y ganancias y un proyecto de distribucion de utilidades obtenidas. 5) Las dem\u00e1s que le confiere la ley. El representante legal judicial tendr\u00e1 las facultades de conciliar, recibir, transigir y confesar ante los jueces civiles, administrativos, laborales y dem\u00e1s autoridades que lo requieran en su condicion de demandante, demandado, incidentazo o denunciante."
     }
   },
   {
@@ -321,44 +321,44 @@
     "nombre_estudiante": "jaime andres",
     "ID del Proceso": "CO1.REQ.915701",
     "Nombre del Procedimiento": "CONTRATO DE ARRENDAMIENTO  (Presentacion de oferta)",
-    "Descripci\u00f3n del Procedimiento": "ADQUIRIR EL SERVICIO DE ARRENDAMIENTO DE COMPUTADORES DE ESCRITORIO, COMPUTADORES PORTATILES, IMPRESORAS, VIDEO PROYECTORES Y ESCANERS PARA APOYAR LOS PROCESO ELECTORALES",
+    "Descripcion del Procedimiento": "ADQUIRIR EL SERVICIO DE ARRENDAMIENTO DE COMPUTADORES DE ESCRITORIO, COMPUTADORES PORTATILES, IMPRESORAS, VIDEO PROYECTORES Y ESCANERS PARA APOYAR LOS PROCESO ELECTORALES",
     "Modalidad de Contratacion": "Seleccion abreviada subasta inversa",
-    "Justificaci\u00f3n Modalidad de Contrataci\u00f3n": "Suministro de bienes y servicios de caracteristicas tecnicas uniformes y comun utilizacion",
+    "Justificacion Modalidad de Contratacion": "Suministro de bienes y servicios de caracteristicas tecnicas uniformes y comun utilizacion",
     "formacion_rues": {
       "NIT": "NIT 830118348 - 7",
-      "Raz\u00f3n Social": "UNIPAR ALQUILERES DE COMPUTADORES SAS",
+      "Razon Social": "UNIPAR ALQUILERES DE COMPUTADORES SAS",
       "Sigla": "",
       "Municipio/Dpto": "BOGOTA, D.C. / BOGOTA",
-      "Categor\u00eda": "SOCIEDAD \u00f3 PERSONA JURIDICA PRINCIPAL \u00f3 ESAL",
+      "Categoria": "SOCIEDAD o PERSONA JURIDICA PRINCIPAL o ESAL",
       "Numero de Matricula": "1259769",
-      "\u00daltimo A\u00f1o Renovado": "2024",
+      "Ultimo Año Renovado": "2024",
       "Fecha de Renovacion": "20240312",
       "Fecha de Matricula": "20030328",
       "Fecha de Vigencia": "Indefinida",
       "Estado de la matricula": "ACTIVA",
       "Tipo de Sociedad": "SOCIEDAD COMERCIAL",
-      "Tipo de Organizaci\u00f3n": "SOCIEDADES POR ACCIONES SIMPLIFICADAS SAS",
-      "Categoria de la Matricula": "SOCIEDAD \u00f3 PERSONA JURIDICA PRINCIPAL \u00f3 ESAL",
-      "Fecha Ultima Actualizaci\u00f3n": "20240829",
-      "Actividades Econ\u00f3micas": [
+      "Tipo de Organizacion": "SOCIEDADES POR ACCIONES SIMPLIFICADAS SAS",
+      "Categoria de la Matricula": "SOCIEDAD o PERSONA JURIDICA PRINCIPAL o ESAL",
+      "Fecha Ultima Actualizacion": "20240829",
+      "Actividades Economicas": [
         {
-          "C\u00f3digo": "7730",
-          "Descripci\u00f3n": "Alquiler y arrendamiento de otros tipos de maquinaria, equipo y bienes tangibles n.c.p."
+          "Codigo": "7730",
+          "Descripcion": "Alquiler y arrendamiento de otros tipos de maquinaria, equipo y bienes tangibles n.c.p."
         },
         {
-          "C\u00f3digo": "4741",
-          "Descripci\u00f3n": "Comercio al por menor de computadores, equipos perif\u00e9ricos, programas de inform\u00e1tica y equipos de telecomunicaciones en establecimientos especializados"
+          "Codigo": "4741",
+          "Descripcion": "Comercio al por menor de computadores, equipos perif\u00e9ricos, programas de inform\u00e1tica y equipos de telecomunicaciones en establecimientos especializados"
         },
         {
-          "C\u00f3digo": "9511",
-          "Descripci\u00f3n": "Mantenimiento y reparaci\u00f3n de computadores y de equipo perif\u00e9rico"
+          "Codigo": "9511",
+          "Descripcion": "Mantenimiento y reparacion de computadores y de equipo perif\u00e9rico"
         },
         {
-          "C\u00f3digo": "1812",
-          "Descripci\u00f3n": "Actividades de servicios relacionados con la impresi\u00f3n"
+          "Codigo": "1812",
+          "Descripcion": "Actividades de servicios relacionados con la impresion"
         }
       ],
-      "Representantes Legales": "El Gerente, es el Repres\u00e9ntate Legal de la compa\u00f1\u00eda en juicio, fuera de juicio. Las mismas facultades las tendr\u00e1 el subgerente, en sus faltas absolutas, temporales accidentales, entendi\u00e9ndose por falta absoluta sus muerte, su renuncia aceptada o separaci\u00f3n del puesto sin licencia por m\u00e1s de treinta d\u00edas. Por Escritura P\u00fablica No. 5675 del 30 de diciembre de 2019, de Notar\u00eda 27  de Bogot\u00e1 D.C., inscrita en esta C\u00e1mara de Comercio el 21 de enero de 2020 con el No. 02543790 del Libro IX, se design\u00f3 a: . CARGO             NOMBRE                    IDENTIFICACI\u00d3N . Gerente           Antonio   Jose  Sanchez   C.C. No. 79143569                            Rueda                                                . . CARGO             NOMBRE                    IDENTIFICACI\u00d3N . Subgerente        Juan   Felipe   Sanchez   C.C. No. 1026271036                          Davila                                               . Son funci\u00f3n de la gerencia Ejecutar los decretos y acuerdos de la Asamblea General de Accionistas. Construir los apoderados judiciales y extrajudiciales que juzgue necesario para representar a la compa\u00f1\u00eda y delegar las facultades que ha bien tenga Celebrar los contratos que tiendan a llenar los fines sociales. Fijar las pol\u00edticas de la compa\u00f1\u00eda en todos los \u00f3rdenes de sus actividades, adoptar planes y programas de acci\u00f3n y organizar administrativamente y dictar sus normas y reglamentaciones, por lo tanto dentro de este orden de ideas, podr\u00e1 crear los cargos que juzgue necesario, para el buen servicio de la compa\u00f1\u00eda eficaz desarrollo y cumplimiento para el buen servicio de la compa\u00f1\u00eda y eficaz desarrollo y cumplimiento de su objeto social; se\u00f1alar sus asignaciones y elegir las personas que debe desempe\u00f1arlos. Cuidar que la recaudaci\u00f3n e inversi\u00f3n de los fondos de la compa\u00f1\u00eda se hagan debidamente. Velar porque los empleados de la compa\u00f1\u00eda cumplan debidamente sus deberes y obligaciones y resolver sobres su renuncia y licencias y suspenderlos y designarles sus reemplazos. Presentar a la Asamblea General de accionistas y sesiones ordinarias un informe detallado sobre la marcha de la compa\u00f1\u00eda y sobre las innovaciones que convenga introducir, para el mejor servicio de sus intereses. En las sesiones extraordinarias presentar un informe relacionados con los puntos concernientes a dichas sesiones. Visitar con la frecuencia que lo estime conveniente, las sucursales, dependencia y agencias y oficinas de la compa\u00f1\u00eda, y en general realizar los viajes que fueren precisos para el cumplimiento del objeto social. Cumplir las dem\u00e1s funciones que le asigne la Asamblea General y las que por la naturaleza de su cargo le correspondan. EL Gerente, como Representante Legal de la compa\u00f1\u00eda tiene las plenas facultades de administraci\u00f3n y representaci\u00f3n legal, tales como comparecer en los juicios en que se dispute la propiedad de los bienes de la compa\u00f1\u00eda, transigir y comprometer los negocios sociales de cualquier naturaleza que fueren desistir, interponer todo g\u00e9nero de recurso, hacer dep\u00f3sitos en bancos y agencias bancarias, novar y renovar obligaciones y cr\u00e9ditos y prorrogara y restringir, sus plazos: celebrara el contrato de cambio en todas sus manifestaciones, firmar y suscribir t\u00edtulos valores tales como letras, pagares, cheques, giros, libranzas y cualquier otro tipo de documentos, as\u00ed como negociar estos instrumentos, tenerlos, cobrarlos, pagarlos, descargarlos, etc.; y en una palabra, representar la compa\u00f1\u00eda. El representante Legal para actos y contratos en cuant\u00edas superiores a mil quinientos (1.500) salarios m\u00ednimos vigentes o para la compra, venta y gravamen de acciones, cuotas o partes d\u00e9 inter\u00e9s social de cualquier naturaleza, as\u00ed como para la-compra, venta, negociaci\u00f3n y gravamen de inmuebles, requieren la previa aprobaci\u00f3n de la Asamblea General. Las mismas facultades las tendr\u00e1 el subgerente, en sus faltas absolutas, temporales accidentales, entendi\u00e9ndose por falta absoluta sus muerte, su renuncia aceptada o separaci\u00f3n del puesto sin licencia por m\u00e1s de treinta d\u00edas."
+      "Representantes Legales": "El Gerente, es el Repres\u00e9ntate Legal de la compañia en juicio, fuera de juicio. Las mismas facultades las tendr\u00e1 el subgerente, en sus faltas absolutas, temporales accidentales, entendi\u00e9ndose por falta absoluta sus muerte, su renuncia aceptada o separacion del puesto sin licencia por m\u00e1s de treinta dias. Por Escritura P\u00fablica No. 5675 del 30 de diciembre de 2019, de Notaria 27  de Bogot\u00e1 D.C., inscrita en esta C\u00e1mara de Comercio el 21 de enero de 2020 con el No. 02543790 del Libro IX, se designo a: . CARGO             NOMBRE                    IDENTIFICACI\u00d3N . Gerente           Antonio   Jose  Sanchez   C.C. No. 79143569                            Rueda                                                . . CARGO             NOMBRE                    IDENTIFICACI\u00d3N . Subgerente        Juan   Felipe   Sanchez   C.C. No. 1026271036                          Davila                                               . Son funcion de la gerencia Ejecutar los decretos y acuerdos de la Asamblea General de Accionistas. Construir los apoderados judiciales y extrajudiciales que juzgue necesario para representar a la compañia y delegar las facultades que ha bien tenga Celebrar los contratos que tiendan a llenar los fines sociales. Fijar las politicas de la compañia en todos los ordenes de sus actividades, adoptar planes y programas de accion y organizar administrativamente y dictar sus normas y reglamentaciones, por lo tanto dentro de este orden de ideas, podr\u00e1 crear los cargos que juzgue necesario, para el buen servicio de la compañia eficaz desarrollo y cumplimiento para el buen servicio de la compañia y eficaz desarrollo y cumplimiento de su objeto social; señalar sus asignaciones y elegir las personas que debe desempeñarlos. Cuidar que la recaudacion e inversion de los fondos de la compañia se hagan debidamente. Velar porque los empleados de la compañia cumplan debidamente sus deberes y obligaciones y resolver sobres su renuncia y licencias y suspenderlos y designarles sus reemplazos. Presentar a la Asamblea General de accionistas y sesiones ordinarias un informe detallado sobre la marcha de la compañia y sobre las innovaciones que convenga introducir, para el mejor servicio de sus intereses. En las sesiones extraordinarias presentar un informe relacionados con los puntos concernientes a dichas sesiones. Visitar con la frecuencia que lo estime conveniente, las sucursales, dependencia y agencias y oficinas de la compañia, y en general realizar los viajes que fueren precisos para el cumplimiento del objeto social. Cumplir las dem\u00e1s funciones que le asigne la Asamblea General y las que por la naturaleza de su cargo le correspondan. EL Gerente, como Representante Legal de la compañia tiene las plenas facultades de administracion y representacion legal, tales como comparecer en los juicios en que se dispute la propiedad de los bienes de la compañia, transigir y comprometer los negocios sociales de cualquier naturaleza que fueren desistir, interponer todo g\u00e9nero de recurso, hacer depositos en bancos y agencias bancarias, novar y renovar obligaciones y cr\u00e9ditos y prorrogara y restringir, sus plazos: celebrara el contrato de cambio en todas sus manifestaciones, firmar y suscribir titulos valores tales como letras, pagares, cheques, giros, libranzas y cualquier otro tipo de documentos, asi como negociar estos instrumentos, tenerlos, cobrarlos, pagarlos, descargarlos, etc.; y en una palabra, representar la compañia. El representante Legal para actos y contratos en cuantias superiores a mil quinientos (1.500) salarios minimos vigentes o para la compra, venta y gravamen de acciones, cuotas o partes d\u00e9 inter\u00e9s social de cualquier naturaleza, asi como para la-compra, venta, negociacion y gravamen de inmuebles, requieren la previa aprobacion de la Asamblea General. Las mismas facultades las tendr\u00e1 el subgerente, en sus faltas absolutas, temporales accidentales, entendi\u00e9ndose por falta absoluta sus muerte, su renuncia aceptada o separacion del puesto sin licencia por m\u00e1s de treinta dias."
     }
   },
   {
@@ -366,44 +366,44 @@
     "nombre_estudiante": "jaime andres",
     "ID del Proceso": "CO1.REQ.723144",
     "Nombre del Procedimiento": "SERVICIOS POSTALES NACIONALES S.A.",
-    "Descripci\u00f3n del Procedimiento": "Prestar los servicios de recepcion, clasificacion, transporte, entrega de correo y demas envios postales en las diferentes modalidades que requiera la Entidad.",
+    "Descripcion del Procedimiento": "Prestar los servicios de recepcion, clasificacion, transporte, entrega de correo y demas envios postales en las diferentes modalidades que requiera la Entidad.",
     "Modalidad de Contratacion": "Contratacion Directa (con ofertas)",
-    "Justificaci\u00f3n Modalidad de Contrataci\u00f3n": "Contratos o convenios Interadministrativos (con valor)",
+    "Justificacion Modalidad de Contratacion": "Contratos o convenios Interadministrativos (con valor)",
     "formacion_rues": {
       "NIT": "NIT 900062917 - 9",
-      "Raz\u00f3n Social": "SERVICIOS POSTALES NACIONALES S.A.S.",
+      "Razon Social": "SERVICIOS POSTALES NACIONALES S.A.S.",
       "Sigla": "",
       "Municipio/Dpto": "BOGOTA, D.C. / BOGOTA",
-      "Categor\u00eda": "SOCIEDAD \u00f3 PERSONA JURIDICA PRINCIPAL \u00f3 ESAL",
+      "Categoria": "SOCIEDAD o PERSONA JURIDICA PRINCIPAL o ESAL",
       "Numero de Matricula": "1554425",
-      "\u00daltimo A\u00f1o Renovado": "2024",
+      "Ultimo Año Renovado": "2024",
       "Fecha de Renovacion": "20240319",
       "Fecha de Matricula": "20051227",
       "Fecha de Vigencia": "Indefinida",
       "Estado de la matricula": "ACTIVA",
       "Tipo de Sociedad": "SOCIEDAD COMERCIAL",
-      "Tipo de Organizaci\u00f3n": "SOCIEDAD ANONIMA",
-      "Categoria de la Matricula": "SOCIEDAD \u00f3 PERSONA JURIDICA PRINCIPAL \u00f3 ESAL",
-      "Fecha Ultima Actualizaci\u00f3n": "20241025",
-      "Actividades Econ\u00f3micas": [
+      "Tipo de Organizacion": "SOCIEDAD ANONIMA",
+      "Categoria de la Matricula": "SOCIEDAD o PERSONA JURIDICA PRINCIPAL o ESAL",
+      "Fecha Ultima Actualizacion": "20241025",
+      "Actividades Economicas": [
         {
-          "C\u00f3digo": "5310",
-          "Descripci\u00f3n": "Actividades postales nacionales"
+          "Codigo": "5310",
+          "Descripcion": "Actividades postales nacionales"
         },
         {
-          "C\u00f3digo": "5320",
-          "Descripci\u00f3n": "Actividades de mensajer\u00eda"
+          "Codigo": "5320",
+          "Descripcion": "Actividades de mensajeria"
         },
         {
-          "C\u00f3digo": "4923",
-          "Descripci\u00f3n": "Transporte de carga por carretera"
+          "Codigo": "4923",
+          "Descripcion": "Transporte de carga por carretera"
         },
         {
-          "C\u00f3digo": "8291",
-          "Descripci\u00f3n": "Actividades de agencias de cobranza y oficinas de calificaci\u00f3n crediticia"
+          "Codigo": "8291",
+          "Descripcion": "Actividades de agencias de cobranza y oficinas de calificacion crediticia"
         }
       ],
-      "Representantes Legales": "La Sociedad tendr\u00e1 un Presidente quien tendr\u00e1 a su cargo la representaci\u00f3n legal, la administraci\u00f3n y la gesti\u00f3n de los negocios, tendr\u00e1 un (1) suplente quien lo reemplazar\u00e1 en caso de faltas temporales o definitivas y tendr\u00e1 las mismas facultades del representante legal. Por  Acta  No.  212  del  11  de  octubre de 2023, de Junta Directiva, inscrita  en esta C\u00e1mara de Comercio el 16 de noviembre de 2023 con el No. 03036155 del Libro IX, se design\u00f3 a: . CARGO             NOMBRE                    IDENTIFICACI\u00d3N . Presidente        Juan   Alberto   Garcia   C.C. No. 9173482                             Estrada                                              . Por Acta No. 217 del 12 de marzo de 2024, de Junta Directiva, inscrita en  esta  C\u00e1mara de Comercio el 29 de mayo de 2024 con el No. 03123198 del Libro IX, se design\u00f3 a: . CARGO             NOMBRE                    IDENTIFICACI\u00d3N . Secretario        Carlos  Enrique  Ospino   C.C. No. 79270688          General           Burgos                                               . Ser\u00e1n funciones del Presidente: 1. Representar a la sociedad judicial y extrajudicialmente ante los accionistas, terceros y toda clase de autoridades judiciales y administrativas, pudiendo nombrar mandatarios para que la representen cuando fuere el caso. Funci\u00f3n que podr\u00e1 delegar en cabeza de la oficina Asesore Jur\u00eddica. 2. Ejecutar los acuerdos y resoluciones de la Asamblea General de Accionistas y de la Junta Directiva. 3. Ejercer los controles necesarios para que se ejecuten las orientaciones de la Asamblea de Accionistas, la Junta Directiva y sus propias determinaciones. 4. Preparar y presentar al \u00f3rgano directivo correspondiente el presupuesto de la compa\u00f1\u00eda. 5. Dise\u00f1ar, presentar y someter a la aprobaci\u00f3n del \u00f3rgano directivo competente los planes de desarrollo, los planes de acci\u00f3n anual y los programas de inversi\u00f3n, mantenimiento y gastos de la sociedad. 6. Convocar a la Junta Directiva ya la Asamblea General de Accionistas de acuerdo con tos estatutos y la ley. 7. Disponerla formaci\u00f3n de comit\u00e9s internos consultivos o t\u00e9cnicos. 8. Constituir apoderados, impartirles orientaci\u00f3n, fijar/es honorarios y delegar atribuciones. 9. Delegar total o parcialmente las atribuciones y competencia en funcionarios de nivel directivo, ejecutivo o sus equivalentes. 10. Ejercerlas acciones necesarias para preservar los derechos e intereses de la sociedad frente a los accionistas, tas autoridades, los usuarios y los terceros. 11. Dar cumplimiento a lo establecido en la ley sobre los programas de gesti\u00f3n y control interno. 12. Informar junto con la Junta Directiva, a la Asamblea General de Accionistas sobre el desarrollo del objeto social y el cumplimiento de planes, metas y programas de la sociedad, rindiendo cuentas comprobadas de su gesti\u00f3n al final de cada ejercicio, a la terminaci\u00f3n de su encargo y cuando \u00e9stas se lo exijan. 13. Nombrar y remover libremente el personal de la sociedad, incluyendo a los administradores de las agencias y oficinas de la sociedad que se lleguen a establecer. 14. Celebrar los contratos de trabajo, implementar la conformaci\u00f3n de la planta de personal, seg\u00fan como la Junta Directiva de fina las pol\u00edticas de personal y estructura salarial de la compa\u00f1\u00eda. 15. Ejercer las funciones que le delegue la Asamblea General de Accionistas y la Junte Directiva. 16. Preparar la agenda de las reuniones peri\u00f3dicas de Junta Directiva. 17. Cumplir y hacer cumplir los mecanismos e instrumentos de Buen Gobierno Societario previstos en los estatutos y en el C\u00f3digo de Buen Gobierno y presentar a la Junta Directiva peri\u00f3dicamente un informe sobre esa gesti\u00f3n. 18. Implementar el Manual de Contrataci\u00f3n de la sociedad, en desarrollo de la ley y de las Pol\u00edticas Generales se\u00f1aladas en el C\u00f3digo de Buen Gobierno Societario. 19. Las dem\u00e1s que correspondan a la naturaleza de su cargo y a las disposiciones de la ley y el estatuto social. 20. Guiar la definici\u00f3n de pol\u00edticas y planes estrat\u00e9gicos encaminados a garantizar la prestaci\u00f3n de los servicios dentro de los marcos regulatorios vigentes y las directrices fijadas por la Asamblea de accionistas y la Junta Directiva. 21. Dirigir, controlar y velar por el cumplimiento de los objetivos de la Empresa. 22. Dirigir e integrarla labor de las diferentes \u00e1reas del negocio y de apoyo para el logro de las metas y objetivos establecidos tanto a nivel de servicio como de rentabilidad de la Organizaci\u00f3n. 23. Presentar a la Junta Directiva el plan estrat\u00e9gico y de gesti\u00f3n de la empresa, hacer el seguimiento y control al mismo y rendir el informe de resultados y ejecuci\u00f3n. 24. Rendir el informe de gesti\u00f3n de la Empresa con la periodicidad que establezca la Junta Directiva. 25. Presidir el comit\u00e9 directivo de la entidad. 26. Mantener, establecer y perfeccionar el sistema de Control interno, de acuerdo con lo establecido en la Ley 87 de 1993. 27. Dar inicio a los procesos de contrataci\u00f3n y celebrar los actos y contratos que comprometan el presupuesto de la entidad, sin previa autorizaci\u00f3n de la Junta directiva y sin l\u00edmite de cuant\u00eda. El presidente en ejercicio de la representaci\u00f3n legal de la sociedad no tendr\u00e1 limitaci\u00f3n alguna para contratar o comprometer a la sociedad."
+      "Representantes Legales": "La Sociedad tendr\u00e1 un Presidente quien tendr\u00e1 a su cargo la representacion legal, la administracion y la gestion de los negocios, tendr\u00e1 un (1) suplente quien lo reemplazar\u00e1 en caso de faltas temporales o definitivas y tendr\u00e1 las mismas facultades del representante legal. Por  Acta  No.  212  del  11  de  octubre de 2023, de Junta Directiva, inscrita  en esta C\u00e1mara de Comercio el 16 de noviembre de 2023 con el No. 03036155 del Libro IX, se designo a: . CARGO             NOMBRE                    IDENTIFICACI\u00d3N . Presidente        Juan   Alberto   Garcia   C.C. No. 9173482                             Estrada                                              . Por Acta No. 217 del 12 de marzo de 2024, de Junta Directiva, inscrita en  esta  C\u00e1mara de Comercio el 29 de mayo de 2024 con el No. 03123198 del Libro IX, se designo a: . CARGO             NOMBRE                    IDENTIFICACI\u00d3N . Secretario        Carlos  Enrique  Ospino   C.C. No. 79270688          General           Burgos                                               . Ser\u00e1n funciones del Presidente: 1. Representar a la sociedad judicial y extrajudicialmente ante los accionistas, terceros y toda clase de autoridades judiciales y administrativas, pudiendo nombrar mandatarios para que la representen cuando fuere el caso. Funcion que podr\u00e1 delegar en cabeza de la oficina Asesore Juridica. 2. Ejecutar los acuerdos y resoluciones de la Asamblea General de Accionistas y de la Junta Directiva. 3. Ejercer los controles necesarios para que se ejecuten las orientaciones de la Asamblea de Accionistas, la Junta Directiva y sus propias determinaciones. 4. Preparar y presentar al organo directivo correspondiente el presupuesto de la compañia. 5. Diseñar, presentar y someter a la aprobacion del organo directivo competente los planes de desarrollo, los planes de accion anual y los programas de inversion, mantenimiento y gastos de la sociedad. 6. Convocar a la Junta Directiva ya la Asamblea General de Accionistas de acuerdo con tos estatutos y la ley. 7. Disponerla formacion de comit\u00e9s internos consultivos o t\u00e9cnicos. 8. Constituir apoderados, impartirles orientacion, fijar/es honorarios y delegar atribuciones. 9. Delegar total o parcialmente las atribuciones y competencia en funcionarios de nivel directivo, ejecutivo o sus equivalentes. 10. Ejercerlas acciones necesarias para preservar los derechos e intereses de la sociedad frente a los accionistas, tas autoridades, los usuarios y los terceros. 11. Dar cumplimiento a lo establecido en la ley sobre los programas de gestion y control interno. 12. Informar junto con la Junta Directiva, a la Asamblea General de Accionistas sobre el desarrollo del objeto social y el cumplimiento de planes, metas y programas de la sociedad, rindiendo cuentas comprobadas de su gestion al final de cada ejercicio, a la terminacion de su encargo y cuando \u00e9stas se lo exijan. 13. Nombrar y remover libremente el personal de la sociedad, incluyendo a los administradores de las agencias y oficinas de la sociedad que se lleguen a establecer. 14. Celebrar los contratos de trabajo, implementar la conformacion de la planta de personal, seg\u00fan como la Junta Directiva de fina las politicas de personal y estructura salarial de la compañia. 15. Ejercer las funciones que le delegue la Asamblea General de Accionistas y la Junte Directiva. 16. Preparar la agenda de las reuniones periodicas de Junta Directiva. 17. Cumplir y hacer cumplir los mecanismos e instrumentos de Buen Gobierno Societario previstos en los estatutos y en el Codigo de Buen Gobierno y presentar a la Junta Directiva periodicamente un informe sobre esa gestion. 18. Implementar el Manual de Contratacion de la sociedad, en desarrollo de la ley y de las Politicas Generales señaladas en el Codigo de Buen Gobierno Societario. 19. Las dem\u00e1s que correspondan a la naturaleza de su cargo y a las disposiciones de la ley y el estatuto social. 20. Guiar la definicion de politicas y planes estrat\u00e9gicos encaminados a garantizar la prestacion de los servicios dentro de los marcos regulatorios vigentes y las directrices fijadas por la Asamblea de accionistas y la Junta Directiva. 21. Dirigir, controlar y velar por el cumplimiento de los objetivos de la Empresa. 22. Dirigir e integrarla labor de las diferentes \u00e1reas del negocio y de apoyo para el logro de las metas y objetivos establecidos tanto a nivel de servicio como de rentabilidad de la Organizacion. 23. Presentar a la Junta Directiva el plan estrat\u00e9gico y de gestion de la empresa, hacer el seguimiento y control al mismo y rendir el informe de resultados y ejecucion. 24. Rendir el informe de gestion de la Empresa con la periodicidad que establezca la Junta Directiva. 25. Presidir el comit\u00e9 directivo de la entidad. 26. Mantener, establecer y perfeccionar el sistema de Control interno, de acuerdo con lo establecido en la Ley 87 de 1993. 27. Dar inicio a los procesos de contratacion y celebrar los actos y contratos que comprometan el presupuesto de la entidad, sin previa autorizacion de la Junta directiva y sin limite de cuantia. El presidente en ejercicio de la representacion legal de la sociedad no tendr\u00e1 limitacion alguna para contratar o comprometer a la sociedad."
     }
   },
   {
@@ -411,33 +411,33 @@
     "nombre_estudiante": "jaime andres",
     "ID del Proceso": "CO1.REQ.431769",
     "Nombre del Procedimiento": "ADQUISICION DE ELEMENTOS QUE INCENTIVEN LA PARTICIPACION DE LOS COLABORADORES DE LA UAERMV COMO ESTRATEGIA PARA FORTALECER EL PROGRAMA DE EDUCACION AMBIENTAL DE LA ENTIDAD",
-    "Descripci\u00f3n del Procedimiento": "ADQUISICION DE ELEMENTOS QUE INCENTIVEN LA PARTICIPACION DE LOS COLABORADORES DE LA UAERMV COMO ESTRATEGIA PARA FORTALECER EL PROGRAMA DE EDUCACION AMBIENTAL DE LA ENTIDAD",
+    "Descripcion del Procedimiento": "ADQUISICION DE ELEMENTOS QUE INCENTIVEN LA PARTICIPACION DE LOS COLABORADORES DE LA UAERMV COMO ESTRATEGIA PARA FORTALECER EL PROGRAMA DE EDUCACION AMBIENTAL DE LA ENTIDAD",
     "Modalidad de Contratacion": "Minima cuantia",
-    "Justificaci\u00f3n Modalidad de Contrataci\u00f3n": "Presupuesto inferior al 10% de la menor cuantia",
+    "Justificacion Modalidad de Contratacion": "Presupuesto inferior al 10% de la menor cuantia",
     "formacion_rues": {
       "NIT": "NIT 900934702 - 5",
-      "Raz\u00f3n Social": "ALCSETEC ALIANZAS COMERCIALES Y SERVICIOS TECNOLOGICOS SAS",
+      "Razon Social": "ALCSETEC ALIANZAS COMERCIALES Y SERVICIOS TECNOLOGICOS SAS",
       "Sigla": "",
       "Municipio/Dpto": "BOGOTA, D.C. / BOGOTA",
-      "Categor\u00eda": "SOCIEDAD \u00f3 PERSONA JURIDICA PRINCIPAL \u00f3 ESAL",
+      "Categoria": "SOCIEDAD o PERSONA JURIDICA PRINCIPAL o ESAL",
       "Numero de Matricula": "2650371",
-      "\u00daltimo A\u00f1o Renovado": "2020",
+      "Ultimo Año Renovado": "2020",
       "Fecha de Renovacion": "20200511",
       "Fecha de Matricula": "20160203",
       "Fecha de Vigencia": "Indefinida",
       "Estado de la matricula": "ACTIVA",
       "Tipo de Sociedad": "SOCIEDAD COMERCIAL",
-      "Tipo de Organizaci\u00f3n": "SOCIEDADES POR ACCIONES SIMPLIFICADAS SAS",
-      "Categoria de la Matricula": "SOCIEDAD \u00f3 PERSONA JURIDICA PRINCIPAL \u00f3 ESAL",
-      "Fecha Ultima Actualizaci\u00f3n": "20200930",
-      "Actividades Econ\u00f3micas": [
+      "Tipo de Organizacion": "SOCIEDADES POR ACCIONES SIMPLIFICADAS SAS",
+      "Categoria de la Matricula": "SOCIEDAD o PERSONA JURIDICA PRINCIPAL o ESAL",
+      "Fecha Ultima Actualizacion": "20200930",
+      "Actividades Economicas": [
         {
-          "C\u00f3digo": "4690",
-          "Descripci\u00f3n": "Comercio al por mayor no especializado"
+          "Codigo": "4690",
+          "Descripcion": "Comercio al por mayor no especializado"
         },
         {
-          "C\u00f3digo": "4723",
-          "Descripci\u00f3n": "Comercio al por menor de carnes (incluye aves de corral), productos c\u00e1rnicos, pescados y productos de mar, en establecimientos especializados"
+          "Codigo": "4723",
+          "Descripcion": "Comercio al por menor de carnes (incluye aves de corral), productos c\u00e1rnicos, pescados y productos de mar, en establecimientos especializados"
         }
       ],
       "Representantes Legales": "REPRESENTACI\u00d3N LEGAL: LA ADMINISTRACI\u00d3N Y REPRESENTACI\u00d3N LEGAL DE LA SOCIEDAD EST\u00c1 EN CABEZA DEL REPRESENTANTE LEGAL, QUIEN NO TENDR\u00c1 SUPLENTES. LA REPRESENTACI\u00d3N LEGAL PUEDE SER EJERCIDA POR PERSONAS NATURALES O JUR\u00cdDICAS, LA ASAMBLEA GENERAL DE ACCIONISTAS, DESIGNARA A LOS REPRESENTANTES LEGALES POR EL PER\u00cdODO QUE LIBREMENTE DETERMINE O EN FORMA INDEFINIDA, SI AS\u00cd LO DISPONE, Y SIN PERJUICIO DE QUE LOS NOMBRAMIENTOS SEAN REVOCADOS LIBREMENTE EN CUALQUIER TIEMPO.                          ** NOMBRAMIENTOS **                          QUE  POR ACTA NO. 003 DE ASAMBLEA DE ACCIONISTAS DEL 9 DE NOVIEMBRE DE 2018,  INSCRITA EL 17 DE DICIEMBRE DE 2018 BAJO EL NUMERO 02405526 DEL LIBRO IX, FUE (RON) NOMBRADO (S):         NOMBRE                                  IDENTIFICACION REPRESENTANTE LEGAL   NIVIAYO SANCHEZ JONATHAN STEVE             C.C. 000001016005301  FACULTADES DEL REPRESENTANTE LEGAL: LOS REPRESENTANTES LEGALES PUEDEN CELEBRAR O EJECUTAR TODOS LOS ACTOS Y CONTRATOS COMPRENDIDOS EN EL OBJETO SOCIAL O QUE SE RELACIONEN DIRECTAMENTE CON LA EXISTENCIA Y FUNCIONAMIENTO DE LA SOCIEDAD."
