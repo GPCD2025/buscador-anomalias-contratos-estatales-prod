@@ -154,7 +154,7 @@ def procesar_fila(row, nombre_estudiante):
         print(f"❌ Error procesando {row['NIT del Proveedor Adjudicado']}: {e}")
         return None
 
-def procesar_en_paralelo(df, nombre_estudiante, max_workers=4):
+def procesar_en_paralelo(df, nombre_estudiante, max_workers=1):
     """
     Procesa el DataFrame en paralelo usando hilos.
     """

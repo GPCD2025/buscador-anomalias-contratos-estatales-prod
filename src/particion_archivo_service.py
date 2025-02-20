@@ -1,6 +1,5 @@
 
-import pandas as pd
-import hashlib
+import pandas as pd 
 from insert_data import guardar_asignacion_grupos, obtener_asignacion_grupos
 
 def crear_consecutivo(df):

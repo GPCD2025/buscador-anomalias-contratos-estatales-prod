@@ -1,7 +1,7 @@
 import psycopg2
-from psycopg2 import sql
+from psycopg2.extras import DictCursor
 from datetime import datetime
-import json
+import pandas as pd
 import unicodedata
 
 # Configuración de la base de datos PostgreSQL
@@ -267,3 +267,111 @@ def obtener_asignacion_grupos():
 
     return [{"nombre_grupo": row[0], "min_consecutivo": row[1], "max_consecutivo": row[2]} for row in grupos]
 
+
+# ejecuta el select en la base de datos y recorre los resultados
+def get_contratos():
+    conn = conectar_db()
+    try:
+        query = """
+        SELECT id, empresa_id, nombre_del_procedimiento, descripcion_del_procedimiento,
+            modalidad_de_contratacion, justificacion_modalidad_de_contratacion
+        FROM contratos
+        limit 5"""
+        
+        with conn.cursor(cursor_factory=DictCursor) as cur:  # 💡 Usamos DictCursor
+            cur.execute(query)
+            resultados = cur.fetchall()
+        
+        contratos = [dict(row) for row in resultados]  # 🔹 Convertimos cada fila en un diccionario
+        
+        return contratos
+    
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+        raise error
+    finally:
+        conn.close()
+
+def get_actividades_from_contrato(contrato_id):
+    conn = conectar_db() 
+    try:
+        query = """
+            SELECT descripcion from actividades_economicas
+            WHERE empresa_id = %s"""
+        with conn.cursor() as curs:
+            curs.execute(query, (contrato_id,))
+            actividades = curs.fetchall()
+        
+        print(f"Actividades encontradas: {len(actividades)} - del contrato: {contrato_id}")
+
+        return [actividad[0] for actividad in actividades] 
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+        raise error
+    finally:
+        conn.close()
+ 
+def save_coherencias(contratos):
+    conn = conectar_db()
+    with conn.cursor() as curs:
+        try:
+            curs.execute("""DELETE FROM resultado""")
+            conn.commit()
+            for contrato in contratos:
+                curs.execute("""
+                INSERT INTO resultado (contrato_id, empresa_id, resultado)
+                VALUES (%s, %s, %s)""",
+                (contrato['id'], contrato['empresa_id'], contrato['resultado']))
+                conn.commit()
+        except (Exception, psycopg2.DatabaseError) as error:
+            print(error)
+            raise error
+        finally:
+            conn.close()
+            
+        print('resultados guardados correctamente')
+
+def save_prompts(contratos):
+    conn = conectar_db()
+    with conn.cursor() as curs:
+        try:
+            for contrato in contratos:
+                curs.execute("""
+                UPDATE contratos SET prompt = %s
+                WHERE id = %s """,
+                (contrato['prompt'], contrato['id']))
+                conn.commit()
+        except (Exception, psycopg2.DatabaseError) as error:
+            print(error)
+            raise error
+        finally:
+            conn.close()
+            
+def get_all_actividades():
+        conn = conectar_db()
+        query = "SELECT id, empresa_id, codigo, descripcion, fecha_creacion FROM actividades_economicas"
+        df = pd.read_sql(query, conn)
+        conn.close()
+        return df
+
+def delete_all_actividades():
+        conn = conectar_db()
+        cur = conn.cursor()
+        cur.execute("DELETE FROM actividades_economicas")
+        conn.commit()
+        cur.close()
+        conn.close()
+
+def insert_cleaned_actividades(df):
+        conn = conectar_db()
+        cur = conn.cursor()
+
+        for _, row in df.iterrows():
+            cur.execute(
+                "INSERT INTO actividades_economicas (empresa_id, codigo, descripcion, fecha_creacion) VALUES (%s, %s, %s, %s)",
+                (row["empresa_id"], row["codigo"], row["descripcion"], row["fecha_creacion"])
+            )
+
+        conn.commit()
+        cur.close()
+        conn.close()
