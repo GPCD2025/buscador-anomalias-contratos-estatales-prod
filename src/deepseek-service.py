@@ -41,6 +41,9 @@ async def generate_text(request: RequestModel):
         result = limpiar_respuesta(result)
         tiempo_respuesta = end_time - start_time  # ⏱️ Calcula el tiempo de respuesta
         
+        print(f"-------------------------------------------------------------------")
+        print(f"Respuesta generada: {result}")
+        print(f"-------------------------------------------------------------------")
         print(f"✅ Respuesta generada en {tiempo_respuesta:.2f} segundos")  # ⏱️ Imprime el tiempo
 
         return {

@@ -1,3 +1,4 @@
+import re
 import psycopg2
 from psycopg2.extras import DictCursor
 from datetime import datetime
@@ -21,17 +22,7 @@ def conectar_db():
     except Exception as e:
         print(f"Error de conexión: {e}")
         return None
-
-# 🔹 Función para limpiar y normalizar claves del JSON
-def limpiar_clave(texto):
-    """ Convierte las claves a minúsculas, sin espacios ni caracteres especiales """
-    if not isinstance(texto, str):
-        return texto
-    texto = texto.lower().strip()
-    texto = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode("utf-8")  # Elimina acentos
-    texto = texto.replace(" ", "_")  # Reemplaza espacios por guiones bajos
-    return texto
-
+  
 def normalizar_json(data):
     """ Aplica la limpieza a las claves del JSON """
     if isinstance(data, dict):
@@ -276,7 +267,8 @@ def get_contratos():
         SELECT id, empresa_id, nombre_del_procedimiento, descripcion_del_procedimiento,
             modalidad_de_contratacion, justificacion_modalidad_de_contratacion
         FROM contratos
-        limit 5"""
+        order by 1
+        limit 100"""
         
         with conn.cursor(cursor_factory=DictCursor) as cur:  # 💡 Usamos DictCursor
             cur.execute(query)
@@ -311,25 +303,68 @@ def get_actividades_from_contrato(contrato_id):
     finally:
         conn.close()
  
-def save_coherencias(contratos):
+from unicodedata import normalize
+
+def limpiar_clave(texto):
+    if not isinstance(texto, str):
+        return texto
+ 
+    texto = texto.lower().strip() 
+    texto = normalize("NFKD", texto).encode("ascii", "ignore").decode("utf-8") 
+    texto = re.sub(r"[^a-z\s]", "", texto)
+
+    return texto
+
+def clean_coherencias():
     conn = conectar_db()
     with conn.cursor() as curs:
         try:
             curs.execute("""DELETE FROM resultado""")
-            conn.commit()
-            for contrato in contratos:
-                curs.execute("""
-                INSERT INTO resultado (contrato_id, empresa_id, resultado)
-                VALUES (%s, %s, %s)""",
-                (contrato['id'], contrato['empresa_id'], contrato['resultado']))
-                conn.commit()
+            conn.commit() 
         except (Exception, psycopg2.DatabaseError) as error:
             print(error)
             raise error
         finally:
             conn.close()
             
+        print('resultados eliminados correctamente')
+
+def save_coherencias(contratos): 
+        try: 
+            for contrato in contratos:
+                split = contrato['resultado'].split('-')
+                if len(split) > 1:
+                    save_resultado(split[0], split[1], contrato['id'], contrato['empresa_id'] )
+                else:
+                    valor_limpio = limpiar_clave(contrato['resultado'])
+                    if valor_limpio.strip().lower() == 'verdadero':
+                        save_resultado(valor_limpio, "", contrato['id'], contrato['empresa_id'])
+                    else:
+                        print(f'valor limpio {valor_limpio}')
+                        print('resultado no guardado')
+        except (Exception, psycopg2.DatabaseError) as error:
+            print(error)
+            raise error 
+            
         print('resultados guardados correctamente')
+
+def save_resultado(resultado,categoria,contrato_id,empresa_id):
+    try:
+        conn = conectar_db()
+        curs = conn.cursor()
+        valor_limpio = limpiar_clave(resultado)
+        resultado = True if valor_limpio.strip().lower() == 'verdadero' else False 
+        print(f"valor_limpio: {valor_limpio} - categoria: {categoria}")
+        curs.execute("""
+                INSERT INTO resultado (contrato_id, empresa_id, resultado, categoria)
+                VALUES (%s, %s, %s, %s)""",
+                (contrato_id, empresa_id, resultado, categoria))
+        conn.commit()
+    except (Exception, psycopg2.DatabaseError) as error:
+            print(error)
+            raise error
+    finally:
+            conn.close()
 
 def save_prompts(contratos):
     conn = conectar_db()
