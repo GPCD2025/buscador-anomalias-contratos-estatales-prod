@@ -2,6 +2,8 @@
 venv/
 .env/
 *.env
+class1/
+class1/*.*
 
 # Ignorar archivos de configuración de Jupyter Notebook
 .ipynb_checkpoints/

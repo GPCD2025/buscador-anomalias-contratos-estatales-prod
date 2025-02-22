@@ -11,7 +11,7 @@ DB_CONFIG = {
     "user": "anomalias",
     "password": "H7iubdf9889bc",
     "host": "ec2-3-86-24-125.compute-1.amazonaws.com",
-    "port": "5432"
+    "port": "80"
 }
 
 estados = {}
@@ -26,7 +26,7 @@ def conectar_db():
         return conn
     except Exception as e:
         print(f"Error de conexión: {e}")
-        return None
+        raise e
   
 def normalizar_json(data):
     """ Aplica la limpieza a las claves del JSON """
@@ -403,17 +403,17 @@ def delete_all_actividades():
 
 def get_next_contrato_from_db():
     conn = conectar_db()
-    with conn.cursor(cursor_factory=psycopg2.extras.DictCursor) as curs:
+    with conn.cursor(cursor_factory=DictCursor) as curs:
         try:
             curs.execute("""
-            UPDATE contratos SET estado = %s
+            UPDATE contratos SET estado = 'proc'
             WHERE id IN (SELECT MIN(c1.id) FROM contratos c1 WHERE c1.estado IS NULL)
-            RETURNING *""", (estados['procesando']))
+            RETURNING *""")
             conn.commit()
             row = curs.fetchone()
             if not row:
                 return None
-            contrato = dict(row)
+            contrato = dict(row)  # Ahora row ya es un diccionario
             return contrato
         except (Exception, psycopg2.DatabaseError) as error:
             print(error)

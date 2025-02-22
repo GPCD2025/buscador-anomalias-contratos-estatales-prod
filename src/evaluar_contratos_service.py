@@ -73,8 +73,7 @@ class ContratoService:
 
   def execute_prompts(self):
       while True:
-          contrato = get_next_contrato_from_db()
-          print(contrato)
+          contrato = get_next_contrato_from_db() 
           actividades = get_actividades_from_contrato(contrato['empresa_id'])
           contrato['actividades'] = actividades
           contrato['prompt'] = self.create_prompt(contrato)
