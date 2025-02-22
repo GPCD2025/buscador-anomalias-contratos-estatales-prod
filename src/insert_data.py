@@ -1,7 +1,8 @@
+import re
 import psycopg2
-from psycopg2 import sql
+from psycopg2.extras import DictCursor
 from datetime import datetime
-import json
+import pandas as pd
 import unicodedata
 
 # Configuración de la base de datos PostgreSQL
@@ -21,17 +22,7 @@ def conectar_db():
     except Exception as e:
         print(f"Error de conexión: {e}")
         return None
-
-# 🔹 Función para limpiar y normalizar claves del JSON
-def limpiar_clave(texto):
-    """ Convierte las claves a minúsculas, sin espacios ni caracteres especiales """
-    if not isinstance(texto, str):
-        return texto
-    texto = texto.lower().strip()
-    texto = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode("utf-8")  # Elimina acentos
-    texto = texto.replace(" ", "_")  # Reemplaza espacios por guiones bajos
-    return texto
-
+  
 def normalizar_json(data):
     """ Aplica la limpieza a las claves del JSON """
     if isinstance(data, dict):
@@ -205,4 +196,217 @@ def procesar_datos(data_array):
     except Exception as e:
         print(f"Error en la inserción: {e}")
     finally:
+        conn.close()
+        
+def obtener_contratos_procesados( ):
+    """Obtiene la lista de ID de procesos ya registrados en la base de datos."""
+    query = "SELECT id_del_proceso FROM contratos;"
+    try:
+        conn = conectar_db()
+        with conn.cursor() as cur:
+            cur.execute(query)
+            resultados = cur.fetchall()
+        
+        # Extraer solo los valores de ID del proceso en una lista
+        id_procesos_procesados = [row[0] for row in resultados]
+
+        print(f"✅ Se han obtenido {len(id_procesos_procesados)} ID de procesos procesados.")
+        return id_procesos_procesados
+    except Exception as e:
+        print(f"❌ Error al obtener los contratos procesados: {e}")
+        return []
+    finally:
+        conn.close()
+
+
+def guardar_asignacion_grupos(grupos):
+    """Guarda la asignación de grupos en la base de datos."""
+    conn = conectar_db()
+    try:
+        query = """
+        INSERT INTO grupos_asignados (nombre_grupo, min_consecutivo, max_consecutivo, fecha_creacion)
+        VALUES (%s, %s, %s, %s)
+        ON CONFLICT (nombre_grupo) DO UPDATE 
+        SET min_consecutivo = EXCLUDED.min_consecutivo, 
+            max_consecutivo = EXCLUDED.max_consecutivo, 
+            fecha_creacion = EXCLUDED.fecha_creacion;
+        """
+        with conn.cursor() as cur:
+            for grupo in grupos:
+                cur.execute(query, (grupo["nombre_grupo"], grupo["min_consecutivo"], grupo["max_consecutivo"], datetime.utcnow()))
+        conn.commit()
+        print("✅ Asignación de grupos guardada en la base de datos.")
+    except Exception as e:
+        print(f"❌ Error al guardar la asignación de grupos: {e}")
+    finally:
+        conn.close()
+
+
+def obtener_asignacion_grupos():
+    """Recupera la asignación de grupos desde la base de datos."""
+    query = "SELECT nombre_grupo, min_consecutivo, max_consecutivo FROM grupos_asignados;"
+    conn = conectar_db()
+    grupos = []
+    try:
+        with conn.cursor() as cur:
+            cur.execute(query)
+            grupos = cur.fetchall()
+    except Exception as e:
+        print(f"❌ Error al obtener la asignación de grupos: {e}")
+    finally:
+        conn.close()
+
+    return [{"nombre_grupo": row[0], "min_consecutivo": row[1], "max_consecutivo": row[2]} for row in grupos]
+
+
+# ejecuta el select en la base de datos y recorre los resultados
+def get_contratos():
+    conn = conectar_db()
+    try:
+        query = """
+        SELECT id, empresa_id, nombre_del_procedimiento, descripcion_del_procedimiento,
+            modalidad_de_contratacion, justificacion_modalidad_de_contratacion
+        FROM contratos
+        order by 1
+        limit 100"""
+        
+        with conn.cursor(cursor_factory=DictCursor) as cur:  # 💡 Usamos DictCursor
+            cur.execute(query)
+            resultados = cur.fetchall()
+        
+        contratos = [dict(row) for row in resultados]  # 🔹 Convertimos cada fila en un diccionario
+        
+        return contratos
+    
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+        raise error
+    finally:
+        conn.close()
+
+def get_actividades_from_contrato(contrato_id):
+    conn = conectar_db() 
+    try:
+        query = """
+            SELECT descripcion from actividades_economicas
+            WHERE empresa_id = %s"""
+        with conn.cursor() as curs:
+            curs.execute(query, (contrato_id,))
+            actividades = curs.fetchall()
+        
+        print(f"Actividades encontradas: {len(actividades)} - del contrato: {contrato_id}")
+
+        return [actividad[0] for actividad in actividades] 
+    except (Exception, psycopg2.DatabaseError) as error:
+        print(error)
+        raise error
+    finally:
+        conn.close()
+ 
+from unicodedata import normalize
+
+def limpiar_clave(texto):
+    if not isinstance(texto, str):
+        return texto
+ 
+    texto = texto.lower().strip() 
+    texto = normalize("NFKD", texto).encode("ascii", "ignore").decode("utf-8") 
+    texto = re.sub(r"[^a-z\s]", "", texto)
+
+    return texto
+
+def clean_coherencias():
+    conn = conectar_db()
+    with conn.cursor() as curs:
+        try:
+            curs.execute("""DELETE FROM resultado""")
+            conn.commit() 
+        except (Exception, psycopg2.DatabaseError) as error:
+            print(error)
+            raise error
+        finally:
+            conn.close()
+            
+        print('resultados eliminados correctamente')
+
+def save_coherencias(contratos): 
+        try: 
+            for contrato in contratos:
+                split = contrato['resultado'].split('-')
+                if len(split) > 1:
+                    save_resultado(split[0], split[1], contrato['id'], contrato['empresa_id'] )
+                else:
+                    valor_limpio = limpiar_clave(contrato['resultado'])
+                    if valor_limpio.strip().lower() == 'verdadero':
+                        save_resultado(valor_limpio, "", contrato['id'], contrato['empresa_id'])
+                    else:
+                        print(f'valor limpio {valor_limpio}')
+                        print('resultado no guardado')
+        except (Exception, psycopg2.DatabaseError) as error:
+            print(error)
+            raise error 
+            
+        print('resultados guardados correctamente')
+
+def save_resultado(resultado,categoria,contrato_id,empresa_id):
+    try:
+        conn = conectar_db()
+        curs = conn.cursor()
+        valor_limpio = limpiar_clave(resultado)
+        resultado = True if valor_limpio.strip().lower() == 'verdadero' else False 
+        print(f"valor_limpio: {valor_limpio} - categoria: {categoria}")
+        curs.execute("""
+                INSERT INTO resultado (contrato_id, empresa_id, resultado, categoria)
+                VALUES (%s, %s, %s, %s)""",
+                (contrato_id, empresa_id, resultado, categoria))
+        conn.commit()
+    except (Exception, psycopg2.DatabaseError) as error:
+            print(error)
+            raise error
+    finally:
+            conn.close()
+
+def save_prompts(contratos):
+    conn = conectar_db()
+    with conn.cursor() as curs:
+        try:
+            for contrato in contratos:
+                curs.execute("""
+                UPDATE contratos SET prompt = %s
+                WHERE id = %s """,
+                (contrato['prompt'], contrato['id']))
+                conn.commit()
+        except (Exception, psycopg2.DatabaseError) as error:
+            print(error)
+            raise error
+        finally:
+            conn.close()
+            
+def get_all_actividades():
+        conn = conectar_db()
+        query = "SELECT id, empresa_id, codigo, descripcion, fecha_creacion FROM actividades_economicas"
+        df = pd.read_sql(query, conn)
+        conn.close()
+        return df
+
+def delete_all_actividades():
+        conn = conectar_db()
+        cur = conn.cursor()
+        cur.execute("DELETE FROM actividades_economicas")
+        conn.commit()
+        cur.close()
+        conn.close()
+
+def insert_cleaned_actividades(df):
+        conn = conectar_db()
+        cur = conn.cursor()
+
+        for _, row in df.iterrows():
+            cur.execute(
+                "INSERT INTO actividades_economicas (empresa_id, codigo, descripcion, fecha_creacion) VALUES (%s, %s, %s, %s)",
+                (row["empresa_id"], row["codigo"], row["descripcion"], row["fecha_creacion"])
+            )
+
+        conn.commit()
+        cur.close()
         conn.close()

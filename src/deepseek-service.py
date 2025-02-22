@@ -3,6 +3,7 @@ from pydantic import BaseModel
 from langchain_ollama import OllamaLLM
 import uvicorn
 import re
+import time
 
 # Inicializar FastAPI
 app = FastAPI()
@@ -31,10 +32,24 @@ model = OllamaLLM(model="deepseek-r1:8b")
 @app.post("/generate")
 async def generate_text(request: RequestModel):
     try:
-        print(f"Prompt: {request.prompt}")
+        print(f"Prompt recibido: {request.prompt}")
+
+        start_time = time.time()  # ⏱️ Inicia el cronómetro
         result = model.invoke(request.prompt)
+        end_time = time.time()  # ⏱️ Finaliza el cronómetro
+        
         result = limpiar_respuesta(result)
-        return {"response": result}
+        tiempo_respuesta = end_time - start_time  # ⏱️ Calcula el tiempo de respuesta
+        
+        print(f"-------------------------------------------------------------------")
+        print(f"Respuesta generada: {result}")
+        print(f"-------------------------------------------------------------------")
+        print(f"✅ Respuesta generada en {tiempo_respuesta:.2f} segundos")  # ⏱️ Imprime el tiempo
+
+        return {
+            "response": result,
+            "execution_time": f"{tiempo_respuesta:.2f} segundos"  # 🔹 Devolvemos el tiempo también en la respuesta
+        }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
     

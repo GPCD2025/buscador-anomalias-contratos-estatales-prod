@@ -37,7 +37,7 @@ class RUESScraper:
         self.driver.get(url) 
         WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.ID, "txtNIT")))
         print("✅ Página cargada correctamente.")
-        time.sleep(3)
+        time.sleep(5)
         # Recargar la página para evitar que aparezca el modal
         self.driver.refresh()
 
@@ -260,9 +260,7 @@ class RUESScraper:
             print(f"⚠️ Error al extraer Representantes Legales: {e}")
             self.manejar_validacion_robot()
             raise e
-
-
-
+ 
 
     def obtener_informacion_completa(self):
         """Retorna la información completa de la empresa."""
