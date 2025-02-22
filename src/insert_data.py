@@ -10,7 +10,7 @@ DB_CONFIG = {
     "dbname": "anomalias",
     "user": "anomalias",
     "password": "H7iubdf9889bc",
-    "host": "ec2-3-86-24-125.compute-1.amazonaws.com",
+    "host": "ec2-44-201-247-41.compute-1.amazonaws.com",
     "port": "80"
 }
 
