@@ -14,6 +14,11 @@ DB_CONFIG = {
     "port": "5432"
 }
 
+estados = {}
+estados['procesando'] = 'pro'
+estados['finalizado'] = 'fin'
+estados['error'] = 'err'
+
 def conectar_db():
     """Establece conexión con PostgreSQL"""
     try:
@@ -285,7 +290,7 @@ def get_contratos():
         conn.close()
 
 def get_actividades_from_contrato(contrato_id):
-    conn = conectar_db() 
+    conn = conectar_db()
     try:
         query = """
             SELECT descripcion from actividades_economicas
@@ -293,10 +298,10 @@ def get_actividades_from_contrato(contrato_id):
         with conn.cursor() as curs:
             curs.execute(query, (contrato_id,))
             actividades = curs.fetchall()
-        
+
         print(f"Actividades encontradas: {len(actividades)} - del contrato: {contrato_id}")
 
-        return [actividad[0] for actividad in actividades] 
+        return [actividad[0] for actividad in actividades]
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
         raise error
@@ -329,19 +334,18 @@ def clean_coherencias():
             
         print('resultados eliminados correctamente')
 
-def save_coherencias(contratos): 
-        try: 
-            for contrato in contratos:
-                split = contrato['resultado'].split('-')
-                if len(split) > 1:
-                    save_resultado(split[0], split[1], contrato['id'], contrato['empresa_id'] )
+def save_coherencia(contrato):
+        try:
+            split = contrato['resultado'].split('-')
+            if len(split) > 1:
+                save_resultado(split[0], split[1], contrato['id'], contrato['empresa_id'])
+            else:
+                valor_limpio = limpiar_clave(contrato['resultado'])
+                if valor_limpio.strip().lower() == 'verdadero':
+                    save_resultado(valor_limpio, "", contrato['id'], contrato['empresa_id'])
                 else:
-                    valor_limpio = limpiar_clave(contrato['resultado'])
-                    if valor_limpio.strip().lower() == 'verdadero':
-                        save_resultado(valor_limpio, "", contrato['id'], contrato['empresa_id'])
-                    else:
-                        print(f'valor limpio {valor_limpio}')
-                        print('resultado no guardado')
+                    print(f'valor limpio {valor_limpio}')
+                    print('resultado no guardado')
         except (Exception, psycopg2.DatabaseError) as error:
             print(error)
             raise error 
@@ -396,6 +400,42 @@ def delete_all_actividades():
         conn.commit()
         cur.close()
         conn.close()
+
+def get_next_contrato_from_db():
+    conn = conectar_db()
+    with conn.cursor(cursor_factory=psycopg2.extras.DictCursor) as curs:
+        try:
+            curs.execute("""
+            UPDATE contratos SET estado = %s
+            WHERE id IN (SELECT MIN(c1.id) FROM contratos c1 WHERE c1.estado IS NULL)
+            RETURNING *""", (estados['procesando']))
+            conn.commit()
+            row = curs.fetchone()
+            if not row:
+                return None
+            contrato = dict(row)
+            return contrato
+        except (Exception, psycopg2.DatabaseError) as error:
+            print(error)
+            raise error
+        finally:
+            conn.close()
+
+
+def update_estado_contrato(contrato_id, prompt):
+    conn = conectar_db()
+    with conn.cursor() as curs:
+        try:
+            curs.execute("""
+            UPDATE contratos SET estado = %s, prompt = %s
+            WHERE id = %s """,
+            (estados['finalizado'], prompt, contrato_id))
+            conn.commit()
+        except (Exception, psycopg2.DatabaseError) as error:
+            print(error)
+            raise error
+        finally:
+            conn.close()
 
 def insert_cleaned_actividades(df):
         conn = conectar_db()
