@@ -1,0 +1,45 @@
+# Ignorar el ambiente virtual (ajustar si el nombre es diferente)
+venv/
+.env/
+*.env
+class1/
+class1/*.*
+
+# Ignorar archivos de configuración de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuración de IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de logs
+logs/
+*.log
+
+ 
+# Bases de datos SQLite
+*.sqlite3
+*.db
+
+# Archivos grandes o temporales
+*.csv
+*.parquet
+*.xlsx
+*.h5
+*.pkl
+*.joblib
+ 
+
+# Carpetas específicas del proyecto
+notebooks/exploracion/
+
+src/build
+src/dist
+src/*.spec
