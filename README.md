@@ -39,6 +39,7 @@ El flujo del proyecto se basa en una metodología estructurada para garantizar l
    - Entrega de los resultados y presentación a los stakeholders.
 
 ### Flujo Gráfico del Proyecto
+
 ```mermaid
 graph TD
     A[Inicia el Proyecto] --> B[Recopilación de Datos]
