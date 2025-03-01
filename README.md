@@ -38,13 +38,3 @@ El flujo del proyecto se basa en una metodología estructurada para garantizar l
 7. **Entrega Final**
    - Entrega de los resultados y presentación a los stakeholders.
 
-### Flujo Gráfico del Proyecto
-
-```mermaid
-graph TD
-    A[Inicia el Proyecto] --> B[Recopilación de Datos]
-    B --> C[Análisis Exploratorio de Datos]
-    C --> D[Modelado (si aplica)]
-    D --> E[Visualización]
-    E --> F[Evaluación y Presentación de Resultados]
-    F --> G[Entrega Final]
